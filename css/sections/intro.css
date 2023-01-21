@@ -9,8 +9,16 @@
     flex-direction: column;
     margin-inline: var(--spacing);
     text-align: center;
-    gap: 25px;
+    gap: 30px;
+    line-height: 25px;
+    margin-inline: 20px;
+    margin-block: 20px;
   }
+
+  .intro__logoMim {
+    width: 21%;
+  }
+
   .intro__navigation {
     display: flex;
     justify-content: space-between;
@@ -20,7 +28,8 @@
   .intro__navigation__language {
     display: flex;
     align-items: flex-end;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 
   .intro__title,
@@ -44,7 +53,7 @@
   .backgroundAdolphe {
     position: absolute;
     z-index: -1;
-    top: 12rem;
+    top: 10.5rem;
   }
 
   .intro__body {
@@ -62,13 +71,177 @@
     justify-content: center;
     gap: 20px;
   }
+
+  .arrows {
+    width: 10%;
+  }
+
+  .intro__loveStory--img {
+    width: 60%;
+  }
 }
 
 /* Ipad 11 inch - Verion */
 @media screen and (min-width: 834px) and (max-width: 1511px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    margin-inline: var(--spacing);
+    text-align: center;
+    gap: 50px;
+    line-height: 50px;
+  }
+
+  .intro__logoMim {
+    width: 20%;
+  }
+
+  .intro__navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .intro__navigation__language {
+    display: flex;
+    align-items: flex-end;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .intro__title,
+  .intro__loveStory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 3em;
+  }
+  .intro__loveStory--img {
+    width: 40%;
+  }
+
+  .intro__title--small {
+    font-size: 1.1rem;
+  }
+
+  .intro__loveStory {
+    display: flex;
+    justify-content: center;
+  }
+
+  .backgroundAdolphe {
+    position: absolute;
+    z-index: -1;
+    top: 15.3rem;
+    left: 8rem;
+    width: 55%;
+  }
+
+  .adolpheSax {
+    max-width: 48%;
+  }
+
+  .intro__body {
+    font-size: 28px;
+  }
+
+  .intro__body--red {
+    font-size: 16px;
+    font-family: Baskerville italic;
+    color: var(--red-accent);
+  }
+
+  .intro__arrows {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .arrows {
+    width: 8%;
+  }
 }
 
 /* Mackbook pro 14 inch - Verion */
 
 @media screen and (min-width: 1512px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    margin-inline: var(--spacing);
+    text-align: left;
+    gap: 50px;
+    line-height: 50px;
+  }
+
+  .intro__logoMim {
+    width: 10%;
+  }
+
+  .intro__navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .intro__navigation__language {
+    display: flex;
+    align-items: flex-end;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  /* .intro__title,
+  .intro__loveStory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 3em;
+  }
+  .intro__loveStory--img {
+    width: 40%;
+  }
+
+  .intro__title--small {
+    font-size: 1.1rem;
+  }
+
+  .intro__loveStory {
+    display: flex;
+    justify-content: center;
+  }
+
+  .backgroundAdolphe {
+    position: absolute;
+    z-index: -1;
+    top: 15.3rem;
+    left: 8rem;
+    width: 55%;
+  }
+
+  .adolpheSax {
+    max-width: 48%;
+  }
+
+  .intro__body {
+    font-size: 28px;
+  }
+
+  .intro__body--red {
+    font-size: 16px;
+    font-family: Baskerville italic;
+    color: var(--red-accent);
+  }
+
+  .intro__arrows {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .arrows {
+    width: 8%;
+  } */
 }

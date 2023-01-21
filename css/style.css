@@ -12,18 +12,18 @@
 @import url("sections/getInTouch.css");
 
 @font-face {
-    font-family: AlaChamp;
-    src: url(../fonts/ala\ champ_demo.ttf);
+  font-family: AlaChamp;
+  src: url(../fonts/ala\ champ_demo.ttf);
 }
 
 @font-face {
-    font-family: Baskerville;
-        src: url(../fonts/BASKE1.ttf);
+  font-family: Baskerville;
+  src: url(../fonts/BASKE1.ttf);
 }
 
 @font-face {
-    font-family: Baskerville italic;
-        src: url(../fonts/BaskervilleBoldItalicBT.ttf);
+  font-family: Baskerville italic;
+  src: url(../fonts/BaskervilleBoldItalicBT.ttf);
 }
 
 body {
@@ -34,10 +34,7 @@ body {
   font-family: unibody-8-new, sans-serif;
   font-weight: 400;
   color: white;
-  margin-inline:20px;
-  margin-block: 20px;
   font-family: Baskerville;
-  line-height: 25px;
 }
 
 main {
@@ -46,6 +43,11 @@ main {
   overflow-x: hidden;
 }
 
-h1, .intro__title--small {
-    font-family: AlaChamp;
+h1,
+.intro__title--small {
+  font-family: AlaChamp;
+}
+
+img {
+    max-width: 100%;
 }
