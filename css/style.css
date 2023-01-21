@@ -10,3 +10,25 @@
 @import url("sections/guessMember.css");
 @import url("sections/goToConcert.css");
 @import url("sections/getInTouch.css");
+
+:root {
+    --red-accent: #C92E2F;
+    --font-family-primary: "Ala champ" ;
+}
+
+body {
+  /* background: url("../images/wave.jpeg"); */
+  font-family: unibody-8-new, sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+main {
+  margin: auto;
+  position: relative;
+  overflow-x: hidden;
+  max-width: var(--mainWidth);
+  background: url("../images/Background.png");
+  background-repeat: no-repeat;
+  
+}
