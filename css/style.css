@@ -1,9 +1,9 @@
 @import url("./reset.css");
 
-@import url("sections/intro.css");
-@import url("sections/adolphe.css");
-@import url("sections/sectionThree.css");
-@import url("sections/features.css");
+@import url("/css/sections/intro.css");
+@import url("/css/sections/adolphe.css");
+@import url("/css/sections/sectionThree.css");
+@import url("/css/sections/features.css");
 @import url("sections/sapphire.css");
 @import url("sections/family.css");
 @import url("sections/showFamily.css");
@@ -12,23 +12,25 @@
 @import url("sections/getInTouch.css");
 
 :root {
-    --red-accent: #C92E2F;
-    --font-family-primary: "Ala champ" ;
+  --red-accent: #c92e2f;
+  --font-family-primary: "Ala champ";
 }
 
 body {
-  /* background: url("../images/wave.jpeg"); */
+  height: 100%;
+  background: url("../assets/M-background-noise.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: unibody-8-new, sans-serif;
   font-weight: 400;
   color: white;
+
+  margin-inline:20px ;
+  margin-block: 20px;
 }
 
 main {
   margin: auto;
   position: relative;
   overflow-x: hidden;
-  max-width: var(--mainWidth);
-  background: url("../images/Background.png");
-  background-repeat: no-repeat;
-  
 }

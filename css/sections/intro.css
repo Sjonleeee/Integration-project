@@ -1,0 +1,50 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-inline: var(--spacing);
+  text-align: center;
+  gap: 25px;
+}
+.intro__navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.intro__navigation__language {
+  display: flex;
+  align-items: flex-end;
+  
+}
+
+.intro__title, .intro__loveStory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 50px;
+}
+
+.intro__title--small{
+  font-size: 25px;
+}
+
+.intro__loveStory {
+  display: flex;
+  justify-content: center;
+}
+
+.intro__body {
+  font-size: 20px;
+}
+
+.intro__body--red {
+  font-size: 16px;
+  color: red;
+}
+
+.intro__arrows {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
