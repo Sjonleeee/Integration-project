@@ -20,6 +20,7 @@
   .intro__navigation__language {
     display: flex;
     align-items: flex-end;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   .intro__title,
@@ -32,7 +33,7 @@
   }
 
   .intro__title--small {
-    font-size: 25px;
+    font-size: 1.1rem;
   }
 
   .intro__loveStory {
@@ -52,6 +53,7 @@
 
   .intro__body--red {
     font-size: 16px;
+    font-family: Baskerville italic;
     color: var(--red-accent);
   }
 

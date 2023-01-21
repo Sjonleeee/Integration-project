@@ -16,6 +16,16 @@
     src: url(../fonts/ala\ champ_demo.ttf);
 }
 
+@font-face {
+    font-family: Baskerville;
+        src: url(../fonts/BASKE1.ttf);
+}
+
+@font-face {
+    font-family: Baskerville italic;
+        src: url(../fonts/BaskervilleBoldItalicBT.ttf);
+}
+
 body {
   height: 100%;
   background: url("../assets/M-background-noise.png");
@@ -26,10 +36,16 @@ body {
   color: white;
   margin-inline:20px;
   margin-block: 20px;
+  font-family: Baskerville;
+  line-height: 25px;
 }
 
 main {
   margin: auto;
   position: relative;
   overflow-x: hidden;
+}
+
+h1, .intro__title--small {
+    font-family: AlaChamp;
 }
