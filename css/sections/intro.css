@@ -2,13 +2,59 @@
   --red-accent: #c92e2f;
 }
 
+.intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.intro__navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro__navigation__language {
+  display: flex;
+  align-items: flex-end;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.intro__title,
+.intro__loveStory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+}
+
+.intro__title--small {
+  font-size: 1.1rem;
+}
+
+.intro__loveStory {
+  display: flex;
+  justify-content: center;
+}
+
+.backgroundAdolphe {
+  position: absolute;
+  z-index: -1;
+}
+
+.intro__body--red {
+  font-family: Baskerville italic;
+  color: var(--red-accent);
+}
+
+.intro__arrows {
+  display: flex;
+  justify-content: center;
+}
+
 /* Mobie version */
 @media screen and (max-width: 390px) {
   .intro {
-    display: flex;
-    flex-direction: column;
-    margin-inline: var(--spacing);
-    text-align: center;
     gap: 30px;
     line-height: 25px;
     margin-inline: 20px;
@@ -20,8 +66,6 @@
   }
 
   .intro__navigation {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 25px;
   }
 
@@ -34,20 +78,8 @@
 
   .intro__title,
   .intro__loveStory {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    gap: 20px;
     font-size: 2.5em;
-  }
-
-  .intro__title--small {
-    font-size: 1.1rem;
-  }
-
-  .intro__loveStory {
-    display: flex;
-    justify-content: center;
   }
 
   hr {
@@ -55,8 +87,6 @@
   }
 
   .backgroundAdolphe {
-    position: absolute;
-    z-index: -1;
     top: 9.8rem;
   }
 
@@ -66,13 +96,9 @@
 
   .intro__body--red {
     font-size: 16px;
-    font-family: Baskerville italic;
-    color: var(--red-accent);
   }
 
   .intro__arrows {
-    display: flex;
-    justify-content: center;
     gap: 20px;
   }
 
@@ -88,10 +114,6 @@
 /* Ipad 11 inch - Verion */
 @media screen and (min-width: 834px) and (max-width: 1511px) {
   .intro {
-    display: flex;
-    flex-direction: column;
-    margin-inline: var(--spacing);
-    text-align: center;
     gap: 60px;
     line-height: 50px;
     margin-inline: 50px;
@@ -103,46 +125,19 @@
   }
 
   .intro__navigation {
-    display: flex;
-    justify-content: space-between;
     font-size: 20px;
-  }
-
-  .intro__navigation__language {
-    display: flex;
-    align-items: flex-end;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 
   .intro__title,
   .intro__loveStory {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
     font-size: 3em;
-  }
-
-  .intro__loveStory--img {
-    width: 40%;
-  }
-
-  .intro__title--small {
-    font-size: 1.1rem;
-  }
-
-  .intro__loveStory {
-    display: flex;
-    justify-content: center;
   }
 
   hr {
     display: none;
   }
   .backgroundAdolphe {
-    position: absolute;
-    z-index: -1;
     top: 19rem;
     left: 10.5rem;
     width: 50%;
@@ -158,13 +153,9 @@
 
   .intro__body--red {
     font-size: 22px;
-    font-family: Baskerville italic;
-    color: var(--red-accent);
   }
 
   .intro__arrows {
-    display: flex;
-    justify-content: center;
     gap: 20px;
   }
 
@@ -179,10 +170,8 @@
   .intro {
     display: flex;
     flex-direction: column;
-    margin-inline: var(--spacing);
     text-align: left;
     gap: 40px;
-    /* line-height: 10rem; */
     margin-inline: 80px;
     margin-block: 50px;
   }
@@ -193,25 +182,24 @@
 
   .intro__navigation {
     display: flex;
+    justify-content: flex-start;
     align-items: flex-end;
     gap: 10%;
     margin-bottom: 45px;
   }
 
   .intro__navigation__language {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
   }
 
   .intro__title,
   .intro__loveStory {
-    display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
     font-size: 6em;
   }
+
   .intro__loveStory--img {
     width: 28%;
   }
@@ -246,14 +234,10 @@
 
   .intro__body--red {
     font-size: 25px;
-    font-family: Baskerville italic;
-    color: var(--red-accent);
     margin-bottom: 50px;
   }
 
   .intro__arrows {
-    display: flex;
-    justify-content: flex-start;
     gap: 30px;
   }
 
