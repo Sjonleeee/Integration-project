@@ -1,6 +1,5 @@
 :root {
   --red-accent: #c92e2f;
-  --font-family-primary: "Baskerville";
 }
 
 /* Mobie version */
@@ -39,6 +38,12 @@
   .intro__loveStory {
     display: flex;
     justify-content: center;
+  }
+
+  .backgroundAdolphe {
+    position: absolute;
+    z-index: -1;
+    top: 12rem;
   }
 
   .intro__body {

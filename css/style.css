@@ -11,6 +11,11 @@
 @import url("sections/goToConcert.css");
 @import url("sections/getInTouch.css");
 
+@font-face {
+    font-family: AlaChamp;
+    src: url(../fonts/ala\ champ_demo.ttf);
+}
+
 body {
   height: 100%;
   background: url("../assets/M-background-noise.png");
@@ -19,8 +24,7 @@ body {
   font-family: unibody-8-new, sans-serif;
   font-weight: 400;
   color: white;
-
-  margin-inline:20px ;
+  margin-inline:20px;
   margin-block: 20px;
 }
 
