@@ -51,3 +51,8 @@ h1,
 img {
     max-width: 100%;
 }
+
+hr { 
+  width: 40%;
+  border: white 2px solid;
+}

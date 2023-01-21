@@ -50,10 +50,14 @@
     justify-content: center;
   }
 
+  hr {
+    display: none;
+  }
+
   .backgroundAdolphe {
     position: absolute;
     z-index: -1;
-    top: 10.5rem;
+    top: 9.8rem;
   }
 
   .intro__body {
@@ -88,8 +92,10 @@
     flex-direction: column;
     margin-inline: var(--spacing);
     text-align: center;
-    gap: 50px;
+    gap: 60px;
     line-height: 50px;
+    margin-inline: 50px;
+    margin-block: 40px;
   }
 
   .intro__logoMim {
@@ -99,7 +105,7 @@
   .intro__navigation {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    font-size: 20px;
   }
 
   .intro__navigation__language {
@@ -117,6 +123,7 @@
     gap: 10px;
     font-size: 3em;
   }
+
   .intro__loveStory--img {
     width: 40%;
   }
@@ -130,16 +137,19 @@
     justify-content: center;
   }
 
+  hr {
+    display: none;
+  }
   .backgroundAdolphe {
     position: absolute;
     z-index: -1;
-    top: 15.3rem;
-    left: 8rem;
-    width: 55%;
+    top: 19rem;
+    left: 10.5rem;
+    width: 50%;
   }
 
   .adolpheSax {
-    max-width: 48%;
+    max-width: 55%;
   }
 
   .intro__body {
@@ -147,7 +157,7 @@
   }
 
   .intro__body--red {
-    font-size: 16px;
+    font-size: 22px;
     font-family: Baskerville italic;
     color: var(--red-accent);
   }
@@ -171,77 +181,83 @@
     flex-direction: column;
     margin-inline: var(--spacing);
     text-align: left;
-    gap: 50px;
-    line-height: 50px;
+    gap: 40px;
+    /* line-height: 10rem; */
+    margin-inline: 80px;
+    margin-block: 50px;
   }
 
   .intro__logoMim {
-    width: 10%;
+    width: 15%;
   }
 
   .intro__navigation {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
+    align-items: flex-end;
+    gap: 10%;
+    margin-bottom: 45px;
   }
 
   .intro__navigation__language {
-    display: flex;
-    align-items: flex-end;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
   }
 
-  /* .intro__title,
+  .intro__title,
   .intro__loveStory {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 10px;
-    font-size: 3em;
+    font-size: 6em;
   }
   .intro__loveStory--img {
-    width: 40%;
+    width: 28%;
   }
 
   .intro__title--small {
-    font-size: 1.1rem;
+    font-size: 2rem;
   }
 
   .intro__loveStory {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .backgroundAdolphe {
     position: absolute;
     z-index: -1;
-    top: 15.3rem;
-    left: 8rem;
+    top: 7.5rem;
+    left: 40rem;
     width: 55%;
   }
 
   .adolpheSax {
-    max-width: 48%;
+    position: absolute;
+    top: 10rem;
+    left: 40rem;
   }
 
   .intro__body {
-    font-size: 28px;
+    font-size: 30px;
+    width: 50%;
   }
 
   .intro__body--red {
-    font-size: 16px;
+    font-size: 25px;
     font-family: Baskerville italic;
     color: var(--red-accent);
+    margin-bottom: 50px;
   }
 
   .intro__arrows {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: flex-start;
+    gap: 30px;
   }
 
   .arrows {
-    width: 8%;
-  } */
+    width: 6%;
+  }
 }
