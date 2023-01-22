@@ -55,9 +55,9 @@
 }
 
 /* Mobie version */
-@media screen and (max-width: 390px) {
+@media screen and (min-width: 390px) and (max-width: 834px) {
   body {
-    background: url("../assets/mobile/background-noise.png");
+    background: url("../assets/mobile/header/background-noise.png");
     background-repeat: no;
   }
   .intro {
@@ -91,6 +91,7 @@
   .backgroundAdolphe {
     top: 12rem;
     right: 2rem;
+    position: fixed;
   }
 
   .intro__body {
@@ -117,7 +118,7 @@
 /* Ipad 11 inch - Verion */
 @media screen and (min-width: 834px) and (max-width: 1511px) {
   body {
-    background: url("../assets/mobile/background-noise.png");
+    background: url("../assets/mobile/header/background-noise.png");
     background-repeat: no-repeat;
   }
   .intro {
