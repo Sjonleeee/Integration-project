@@ -9,7 +9,7 @@
     <main>
       <header class="intro">
         <div class="intro__navigation">
-          <img class="intro__logoMim" src="./assets/Logo MIM .png" alt="" />
+          <img class="intro__logoMim" src="./assets/mobile/logo-MIM.png" alt="" />
           <p class="intro__navigation__language">NL EN FR</p>
         </div>
         <div class="intro__welcome">
@@ -19,13 +19,21 @@
           </div>
           <div class="intro__loveStory">
             <h1>the</h1>
-            <img class="intro__loveStory--img" src="./assets/Love story.png" alt="" />
+            <picture>
+              <source media="(max-width: 390px)" srcset="/assets/mobile/love-story.png">
+              <source media="(min-width: 834px)" srcset="/assets/ipad/love-story.png">
+              <img src="./assets/mobile/love-story.png" alt="">
+            </picture>
           </div>
+           <hr>
         </div>
-          <hr>
-        <picture class="adolphe">
-          <img class="backgroundAdolphe" src="./assets/Background behind Adolphe.png" alt="">
-          <img class="adolpheSax" src="./assets/Adolphe Sax finish.png" alt="Adolphe Sax playing Saxophone" />
+         
+        <picture>
+          <img class="backgroundAdolphe" src="./assets/mobile/background-behind-adolphe.png" alt="">
+          <source media="(max-width: 390px)" srcset="/assets/mobile/adolphe-sax.png">
+          <source media="(min-width: 834px and max-width: 1512px)" srcset="/assets/ipad/adolphe-sax.png">
+          <source media="(min-width: 1512px)" srcset="/assets/desktop/adolphe-sax.png">
+          <img class="adolpheSax" src="./assets/mobile/adolphe-sax.png" alt="">
         </picture>
 
         <p class="intro__body">
@@ -39,6 +47,8 @@
           <img class="arrows" src="./assets/Yellow arrow.png" alt="Yellow love heart" />
           <img class="arrows" src="./assets/Yellow arrow.png" alt="Yellow love heart" />
         </div>
+        
+        
       </header>
     </main>
 

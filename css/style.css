@@ -28,7 +28,6 @@
 
 body {
   height: 100%;
-  background: url("../assets/M-background-noise.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: unibody-8-new, sans-serif;
@@ -53,6 +52,6 @@ img {
 }
 
 hr { 
-  width: 40%;
-  border: white 2px solid;
+  width: 37%;
+  border: white 1px solid;
 }
