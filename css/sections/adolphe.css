@@ -1,0 +1,14 @@
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: red dashed;
+}
+
+.sectionTwo__adolphe {
+    position: relative;
+    bottom: 70px;
+    margin: 0 auto;
+}

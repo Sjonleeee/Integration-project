@@ -1,4 +1,4 @@
-// import '../../integration-project/'
+import '../css/style.css'
 import intro from "./sections/intro.js";
 import adolphe from "./sections/adolphe.js";
 import sectionThree from "./sections/sectionThree.js";
