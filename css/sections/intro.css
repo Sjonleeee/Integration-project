@@ -6,47 +6,62 @@
   display: grid;
   height: 100vh;
   grid-template-columns: auto;
-  grid-template-rows: 15vh 15vh 40vh 20vh 10vh ;
+  grid-template-rows: 15vh 10vh 40vh 10vh 10vh 10vh;
+  gap: 0.4rem;
+
+  margin-block: 3vh;
+  margin-inline: 3vh;
 }
 
 .intro__logoMim {
   place-items: left;
+  grid-column: 1;
 }
 
 .intro__body {
   display: grid;
-  grid-template-rows: 2vh 0.2vh;
+  grid-row: 2;
+  grid-template-rows: 20px 20px;
   place-items: center;
   align-content: bottom;
 }
 
 .loveStory {
+  grid-row: 2;
   align-content: center;
   position: relative;
   top: 25px;
   right: -1vh;
 }
 
+.intro__adolpheSax {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  background-image: url("../../assets/mobile/header/background-behind-adolphe.png");
+  background-repeat: no-repeat;
+}
 
-.intro__text {
+.intro__img {
+  width: 40vh;
+}
+
+.intro__text,
+.intro__text--scroll {
   text-align: center;
 }
 
+.intro__text--scroll {
+  color: red;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.intro__arrows {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
 
 /* .intro__navigation {
   display: flex;
@@ -96,7 +111,7 @@
 
 /* Mobie version */
 /* @media screen and (min-width: 390px) and (max-width: 834px) { */
-  /* body {
+/* body {
     background: url("../assets/mobile/header/background-noise.png");
     background-repeat: no;
   }
@@ -151,7 +166,6 @@
   .intro__loveStory--img {
     width: 60%;
   } */
-
 
 /* Ipad 11 inch - Verion */
 /* @media screen and (min-width: 834px) and (max-width: 1511px) {
