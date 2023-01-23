@@ -3,12 +3,52 @@
 }
 
 .intro {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: auto;
+  grid-template-rows: 15vh 15vh 40vh 20vh 10vh ;
+}
+
+.intro__logoMim {
+  place-items: left;
+}
+
+.intro__body {
+  display: grid;
+  grid-template-rows: 2vh 0.2vh;
+  place-items: center;
+  align-content: bottom;
+}
+
+.loveStory {
+  align-content: center;
+  position: relative;
+  top: 25px;
+  right: -1vh;
+}
+
+
+.intro__text {
   text-align: center;
 }
 
-.intro__navigation {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .intro__navigation {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
@@ -55,13 +95,12 @@
 }
 
 /* Mobie version */
-@media screen and (min-width: 390px) and (max-width: 834px) {
-  body {
+/* @media screen and (min-width: 390px) and (max-width: 834px) { */
+  /* body {
     background: url("../assets/mobile/header/background-noise.png");
     background-repeat: no;
   }
   .intro {
-    gap: 40px;
     line-height: 25px;
     margin-inline: 20px;
     margin-block: 20px;
@@ -111,11 +150,11 @@
 
   .intro__loveStory--img {
     width: 60%;
-  }
-}
+  } */
+
 
 /* Ipad 11 inch - Verion */
-@media screen and (min-width: 834px) and (max-width: 1511px) {
+/* @media screen and (min-width: 834px) and (max-width: 1511px) {
   body {
     background: url("../assets/mobile/header/background-noise.png");
     background-repeat: no-repeat;
@@ -170,11 +209,11 @@
   .arrows {
     width: 8%;
   }
-}
+} */
 
 /* Mackbook pro 14 inch - Verion */
 
-@media screen and (min-width: 1512px) {
+/* @media screen and (min-width: 1512px) {
   body {
     background-image: url("../../assets/desktop/backgroud-noice.png");
     background-repeat: no-repeat;
@@ -254,4 +293,4 @@
   .arrows {
     width: 6%;
   }
-}
+}  */

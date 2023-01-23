@@ -34,6 +34,8 @@ body {
   font-weight: 400;
   color: white;
   font-family: Baskerville;
+
+  background-image: url("../assets/mobile/header/background-noise.png");
 }
 
 main {
@@ -42,16 +44,15 @@ main {
   overflow-x: hidden;
 }
 
-h1,
-.intro__title--small {
+.intro__title {
   font-family: AlaChamp;
+  font-size: 2rem;
 }
 
+.intro__title--small {
+  font-size: 20px;
+}
 img {
     max-width: 100%;
 }
 
-hr { 
-  width: 37%;
-  border: white 1px solid;
-}
