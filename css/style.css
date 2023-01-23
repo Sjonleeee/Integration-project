@@ -13,30 +13,26 @@
 
 @font-face {
   font-family: AlaChamp;
-  src: url(../fonts/ala\ champ_demo.ttf);
-}
-
-@font-face {
+  src: url("../fonts/ala\ champ_demo.ttf");
   font-family: Baskerville;
-  src: url(../fonts/BASKE1.ttf);
+  src: url("../fonts/Baskerville.ttf");
+  /* font-family: Baskerville, italic;
+  src: url("../fonts/BaskervilleBoldItalicBT.ttf"); */
 }
 
-@font-face {
-  font-family: Baskerville italic;
-  src: url(../fonts/BaskervilleBoldItalicBT.ttf);
-}
+
 
 body {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 100%;
   font-family: unibody-8-new, sans-serif;
   font-weight: 400;
   color: white;
   font-family: Baskerville;
- 
-
   background-image: url("../assets/mobile/header/background-noise.png");
+  background-size: cover;
 }
 
 main {
@@ -45,15 +41,12 @@ main {
   overflow-x: hidden;
 }
 
-.intro__title {
-  font-family: AlaChamp;
-  font-size: 2rem;
+p {
+  font-size: 4vmin; 
 }
 
-.intro__title--small {
-  font-size: 20px;
-}
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
+
 
