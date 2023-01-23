@@ -41,6 +41,7 @@
   place-content: center;
   background-image: url("../../assets/mobile/header/background-behind-adolphe.png");
   background-repeat: no-repeat;
+  background-position: center; 
 }
 
 .intro__img {
@@ -61,6 +62,10 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
+}
+
+/* Mobie version  */
+@media screen and (min-width: 390px) {
 }
 
 /* .intro__navigation {

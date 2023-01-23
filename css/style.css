@@ -34,6 +34,7 @@ body {
   font-weight: 400;
   color: white;
   font-family: Baskerville;
+  font-size: 2.4vw;
 
   background-image: url("../assets/mobile/header/background-noise.png");
 }
