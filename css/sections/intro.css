@@ -39,13 +39,15 @@
   justify-content: center;
   align-items: center;
   place-content: center;
-  background-image: url("../../assets/mobile/header/background-behind-adolphe.png");
-  background-repeat: no-repeat;
-  background-position: center; 
 }
 
 .intro__img {
   width: 40vh;
+  background-image: url("../../assets/mobile/header/background-behind-adolphe.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
 }
 
 .intro__text,
@@ -66,6 +68,16 @@
 
 /* Mobie version  */
 @media screen and (min-width: 390px) {
+}
+
+/* Ipad version */
+@media screen and (min-width: 834px) and (max-width: 1511px) {
+  .intro {
+    gap: 0.4rem;
+
+    margin-block: 5vh;
+    margin-inline: 10vw;
+  }
 }
 
 /* .intro__navigation {
