@@ -12,10 +12,10 @@
 @import url("sections/getInTouch.css");
 
 @font-face {
-  font-family: AlaChamp;
-  src: url("../fonts/ala\ champ_demo.ttf");
-  font-family: Baskerville;
-  src: url("../fonts/Baskerville.ttf");
+  font-family: 'AlaChamp';
+  src: url("../fonts/ala\ champ_demo.ttf") format('truetype');
+  font-family:'Baskerville';
+  src: url("../fonts/baskvl.ttf") format('truetype');
   /* font-family: Baskerville, italic;
   src: url("../fonts/BaskervilleBoldItalicBT.ttf"); */
 }
@@ -31,8 +31,7 @@ body {
   font-weight: 400;
   color: white;
   font-family: Baskerville;
-  background-image: url("../assets/mobile/header/background-noise.png");
-  background-size: cover;
+  font-size: 2.5vw;
 }
 
 main {
@@ -42,7 +41,7 @@ main {
 }
 
 p {
-  font-size: 4vmin; 
+  font-size: 3.5vmin; 
 }
 
 img {

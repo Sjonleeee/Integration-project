@@ -52,7 +52,6 @@
 
 .intro__img {
   grid-row: 3;
-  width: 40vh;
   background-image: url("../../assets/mobile/header/background-behind-adolphe.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -89,10 +88,18 @@
 
 /* Mobie version  */
 @media screen and (min-width: 390px) {
+  body {
+    background-image: url("../assets/mobile/header/background-noise.png");
+    background-size: cover;
+  }
 }
 
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1511px) {
+  body {
+    background-image: url("../assets/mobile/header/background-noise.png");
+    background-size: cover;
+  }
   .intro {
     display: grid;
     min-height: 100vh;
@@ -115,14 +122,60 @@
   .loveStory {
     top: 12px;
   }
+
+  .intro__text {
+    font-size: 1.1em;
+  }
+  .intro__text--scroll {
+    font-size: 0.9em;
+  }
 }
 
 /* Mackbook pro 14 inch - Verion */
-/* 
 @media screen and (min-width: 1512px) {
+  body {
+    background-image: url("../../assets/desktop/backgroud-noice.png");
+    background-size: cover;
+    font-size: 20px;
+  }
   .intro {
     display: grid;
-    grid-template-columns: 40vw 60vw ;
-    border: solid red 2px;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 10vh 20vh 30vh 10vh 5vh 15vh;
+    margin-block: 7vh;
+    margin-inline: 7vh;
+    gap: 1.2rem;
   }
-} */
+
+  .intro__adolpheSax {
+    grid-row: 1 / 7;
+    align-items: flex-end;
+  }
+
+  .intro__body {
+    gap: 1vh;
+    place-items: flex-start;
+    align-content: center;
+  }
+
+  .intro__text {
+    grid-column: 1;
+    grid-row: 3 / 4;
+    text-align: left;
+  }
+
+  .intro__text--scroll {
+    grid-row: 4;
+    text-align: left;
+  }
+
+  .intro__arrows {
+    place-content: flex-start;
+    grid-row: 5 / 7;
+    gap: 40px;
+  }
+
+  .intro__text--scroll {
+    font-size: 25px;
+  }
+}
