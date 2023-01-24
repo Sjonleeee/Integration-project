@@ -14,8 +14,8 @@
 @font-face {
   font-family: "AlaChamp";
   src: url("../fonts/ala\ champ_demo.ttf") format("truetype");
-  font-family: "Baskerville";
-  src: url("../fonts/baskvl.ttf") format("truetype");
+  /* font-family: "Baskerville";
+  src: url("../fonts/baskvl.ttf") format("truetype"); */
   /* font-family: Baskerville, italic;
   src: url("../fonts/BaskervilleBoldItalicBT.ttf"); */
 }
@@ -46,7 +46,8 @@ img {
 }
 
 .intro,
-.sectionTwo {
+.sectionTwo,
+.features {
   margin-inline: 5vw;
   padding-top: 3vh;
 }

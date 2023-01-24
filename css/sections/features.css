@@ -10,9 +10,24 @@
   .features {
     display: grid;
     min-height: 100vh;
-    grid-template-rows:  1fr 1fr 1fr ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60vh 20vh 20vh;
     text-align: center;
-    align-items: center;
-    place-content: center;
+    place-items: center;
+  }
+
+  .features__love {
+    display: grid;
+    height: 250px;
+    gap: 25px;
+    place-items: center;
+  }
+
+  .features__love p {
+    font-size: 4rem;
+  }
+
+  .features__love__adolphe {
+    font-size: 20px;
   }
 }
