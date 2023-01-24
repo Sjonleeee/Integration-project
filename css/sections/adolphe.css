@@ -42,7 +42,13 @@
 
   .sectionTwo__mannekePis {
     position: absolute;
-    bottom: 11rem;
+    bottom: 28rem;
     left: 18rem;
+  }
+
+  .background {
+    background-image: url("../../assets/mobile/sectionTwo/background-cutted.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

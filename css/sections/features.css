@@ -1,0 +1,14 @@
+/* Mobie version  */
+@media screen and (min-width: 390px) {
+  .background__features {
+    min-height: 100vh;
+    background-image: url("../../assets/mobile/features/background__feature.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .features {
+    display: grid;
+    grid-template-rows:  1fr 1fr 1fr ;
+  }
+}
