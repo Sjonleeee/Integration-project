@@ -47,7 +47,8 @@ img {
 
 .intro,
 .sectionTwo,
-.features {
+.features,
+.sapphire {
   margin-inline: 5vw;
   padding-top: 3vh;
 }
