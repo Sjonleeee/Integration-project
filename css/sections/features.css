@@ -9,6 +9,10 @@
 
   .features {
     display: grid;
+    min-height: 100vh;
     grid-template-rows:  1fr 1fr 1fr ;
+    text-align: center;
+    align-items: center;
+    place-content: center;
   }
 }

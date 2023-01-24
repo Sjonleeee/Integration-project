@@ -8,23 +8,24 @@
     display: grid;
     min-height: 100vh;
     grid-template-columns: 30vw 40vw 30vw;
-    grid-template-rows: 1fr 1fr 1fr;
-    place-content: center;
-    align-self: center;
+    grid-template-rows: 30vh 40vh 30vh;
   }
 
   .flowers {
     grid-row: 2;
     grid-column: 2;
+    align-self: center;
   }
 
   .head__adolphe {
     grid-row: 2;
     grid-column: 1;
+    align-self: center;
   }
 
   .saxophone {
     grid-row: 2;
     grid-column: 3;
+    align-self: center;
   }
 }
