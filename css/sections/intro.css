@@ -1,16 +1,9 @@
-:root {
-  --red-accent: #c92e2f;
-}
-
 .intro {
   display: grid;
   min-height: 100vh;
   grid-template-columns: auto;
   grid-template-rows: 10vh 10vh 40vh 10vh 10vh 10vh;
   gap: 0.8rem;
-
-  margin-block: 3vh;
-  margin-inline: 3vh;
 }
 
 .intro__logoMim {
@@ -87,10 +80,13 @@
 }
 
 /* Mobie version  */
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 390px) and (max-width: 834px) {
   body {
     background-image: url("../assets/mobile/header/background-noise.png");
     background-size: cover;
+  }
+  p {
+    font-size: 20px;
   }
 }
 
@@ -100,6 +96,11 @@
     background-image: url("../assets/mobile/header/background-noise.png");
     background-size: cover;
   }
+
+  p {
+    font-size: 1.5em;
+  }
+
   .intro {
     display: grid;
     min-height: 100vh;
@@ -123,11 +124,8 @@
     top: 12px;
   }
 
-  .intro__text {
-    font-size: 1.1em;
-  }
   .intro__text--scroll {
-    font-size: 0.9em;
+    font-size: 20px;
   }
 }
 
@@ -136,8 +134,8 @@
   body {
     background-image: url("../../assets/desktop/backgroud-noice.png");
     background-size: cover;
-    font-size: 20px;
   }
+
   .intro {
     display: grid;
     grid-template-columns: 40% 60%;

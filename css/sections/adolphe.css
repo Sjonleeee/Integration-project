@@ -1,14 +1,48 @@
 .sectionTwo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: red dashed;
+  display: grid;
 }
 
-.sectionTwo__adolphe {
+/* Mobie version  */
+@media screen and (min-width: 390px) {
+  .sectionTwo {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 30vh 15vh 20vh 10vh;
+    text-align: center;
+    place-items: center;
+    gap: 2vh;
+  }
+
+  .sectionTwo__title {
+    position: relative;
+    top: 7rem;
+    z-index: 999;
+    font-size: 3rem;
+  }
+
+  .sectionTwo__adolphe {
+    grid-row: 1 / 3;
+    grid-row: 2;
     position: relative;
     bottom: 70px;
     margin: 0 auto;
+    grid-row: 2;
+  }
+
+  .sectionTwo__text {
+    display: grid;
+    gap: 20px;
+    place-items: center;
+  }
+
+  .sectionTwo__secretButton {
+    grid-row: 5;
+  }
+
+  .sectionTwo__mannekePis {
+    position: absolute;
+    bottom: 11rem;
+    left: 18rem;
+  }
 }
