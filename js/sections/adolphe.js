@@ -5,21 +5,20 @@ const adolphe = (gsap) => {
       scrub: true,
       // markers: true,
       start: "top 25%",
-      end: "center 20%",
+      end: "bottom 0%",
     },
   });
 
   tl.from(".title__name", {
     x: -350,
 
-    duration: 4,
+    duration: 10,
   });
   tl.to(
     ".title__date",
     {
       x: -350,
-
-      duration: 4,
+      duration: 10,
     },
     "<"
   );
