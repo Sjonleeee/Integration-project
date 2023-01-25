@@ -1,4 +1,4 @@
-const verticalScroll = () => {
+const verticalScroll = (gsap, ScrollTrigger) => {
   ScrollTrigger.create({
     trigger: ".verticalScroll",
     pin: "#img__div",

@@ -1,14 +1,15 @@
-const tl = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".sectionTwo__adolphe",
-    scrub: true,
-    markers: true,
-    start: "top 25%",
-    end: "center 20%",
-  },
-});
 
-const adolphe = () => {
+const adolphe = (gsap) => {
+  const tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sectionTwo__adolphe",
+      scrub: true,
+      // markers: true,
+      start: "top 25%",
+      end: "center 20%",
+    },
+  });
+  
   tl.from(".title__name", {
     x: -350,
 
