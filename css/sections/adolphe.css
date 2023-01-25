@@ -1,19 +1,22 @@
 .sectionTwo {
   display: grid;
 }
+.sectionTwo {
+  min-height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 30vh 15vh 20vh 10vh;
+  text-align: center;
+  place-items: center;
+  gap: 2vh;
+}
 
+.background {
+  background-image: url("../../assets/mobile/sectionTwo/background-cutted.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* Mobie version  */
-@media screen and (min-width: 390px) {
-  .sectionTwo {
-    display: grid;
-    min-height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10vh 30vh 15vh 20vh 10vh;
-    text-align: center;
-    place-items: center;
-    gap: 2vh;
-  }
-
+@media screen and (min-width: 390px) and (max-width: 834px) {
   .sectionTwo__title {
     position: relative;
     top: 7rem;
@@ -22,12 +25,10 @@
   }
 
   .sectionTwo__adolphe {
-    grid-row: 1 / 3;
-    grid-row: 2;
     position: relative;
+    max-width: 220vw;
     bottom: 70px;
     margin: 0 auto;
-    grid-row: 2;
   }
 
   .sectionTwo__text {
@@ -45,10 +46,9 @@
     bottom: 28rem;
     left: 18rem;
   }
+}
 
-  .background {
-    background-image: url("../../assets/mobile/sectionTwo/background-cutted.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+/* Ipad version */
+@media screen and (min-width: 834px) and (max-width: 1512px) {
+
 }
