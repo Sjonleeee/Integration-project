@@ -74,13 +74,9 @@
   width: 10%;
 }
 
+
 /* Mobie version  */
 @media screen and (min-width: 390px) and (max-width: 834px) {
-  .intro__background {
-    background-image: url("../../assets/mobile/intro/background-noise.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
   p {
     font-size: 20px;
   }
@@ -88,15 +84,6 @@
 
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1512px) {
-  .intro__background {
-    background-image: url("../../assets/mobile/intro/background-noise.png");
-    background-size: cover;
-  }
-
-  p {
-    font-size: 1em;
-  }
-
   .intro {
     display: grid;
     min-height: 100vh;
@@ -127,11 +114,6 @@
 
 /* Mackbook pro 14 inch - Verion */
 @media screen and (min-width: 1512px) {
-  .intro__background {
-    background-image: url("../../assets/desktop/backgroud-noice.png");
-    background-size: cover;
-  }
-
   .intro {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -154,7 +136,7 @@
     grid-column: 1;
     grid-row: 3 / 4;
     text-align: left;
-    /* font-size: 2rem; */
+    font-size: 2rem;
   }
 
   .intro__text--scroll {
