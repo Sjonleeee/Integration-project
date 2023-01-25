@@ -14,7 +14,7 @@
 @media screen and (min-width: 390px) and (max-width: 834px) {
   .sectionTwo__title {
     position: relative;
-    top: 7rem;
+    top: 5rem;
     z-index: 999;
     font-size: 3rem;
   }

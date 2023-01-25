@@ -20,11 +20,11 @@
 }
 .intro__title {
   font-family: AlaChamp;
-  font-size: 8vmin;
+  font-size: 2.5rem;
 }
 
 .intro__title--small {
-  font-size: 3vmin;
+  font-size: 1.2rem;
   font-family: Baskerville, italic;
 }
 

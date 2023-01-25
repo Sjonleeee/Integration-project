@@ -2,8 +2,8 @@ const intro = (gsap) => {
   const tl = gsap.timeline({ repeat: -1, yoyo: true, repeatDelay: 0.2 });
 
   gsap.from(".intro__img", {
-    rotate: 2,
-    duration: 1,
+    rotate: 4,
+    duration: 0.6,
     yoyo: true,
     repeat: -1,
   });
