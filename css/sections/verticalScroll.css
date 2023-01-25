@@ -1,0 +1,65 @@
+.section {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container__text {
+  width: 50%;
+}
+
+.date__container__text {
+  height: 100%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.date__text {
+  display: inline-block;
+  font-size: 5vw;
+}
+
+.fixed__date__text {
+  z-index: 999;
+}
+
+.container__sideText {
+  color: black;
+  font-weight: 700;
+  padding-left: 2vw;
+  font-size: 2vw;
+  line-height: 2rem;
+  width: 45vw;
+}
+
+.hidden-element {
+  visibility: hidden;
+}
+
+#img__div {
+  z-index: -2;
+}
+
+#img__div img {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.img__div {
+  position: relative;
+  display: table;
+  width: 50%;
+  height: 100vh;
+  align-items: center;
+}
