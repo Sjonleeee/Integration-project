@@ -60,5 +60,5 @@ img {
 .cutted__background {
   height: 95px;
   background-image: url("../assets/background-cutted.png");
-  background-position: center center;
+  background-position: left left;
 }

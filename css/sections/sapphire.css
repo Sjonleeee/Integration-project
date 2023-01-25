@@ -1,10 +1,4 @@
 @media screen and (min-width: 390px) and (max-width: 834px) {
-  .background__sapphire {
-    background-image: url("../../assets/mobile/intro/background-noise.png");
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
   .sapphire {
     text-align: center;
