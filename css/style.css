@@ -21,9 +21,9 @@
 
 body {
   color: white;
-  font-family: 'Baskervville', serif;
+  font-family: "Baskervville", serif;
   background-color: #f6efdd;
-  line-height: 1.3rem;
+  font-size: 1.1rem;
 }
 
 main {
@@ -35,7 +35,7 @@ main {
 }
 
 p {
-  font-size: 3.5vw;
+  line-height: 1.3em;
 }
 
 img {

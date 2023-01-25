@@ -77,9 +77,7 @@
 
 /* Mobie version  */
 @media screen and (min-width: 390px) and (max-width: 834px) {
-  p {
-    font-size: 20px;
-  }
+
 }
 
 /* Ipad version */
