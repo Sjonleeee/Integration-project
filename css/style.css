@@ -56,3 +56,9 @@ img {
   margin-inline: 5vw;
   padding-top: 3vh;
 }
+
+.cutted__background {
+  height: 95px;
+  background-image: url("../assets/background-cutted.png");
+  background-position: center center;
+}

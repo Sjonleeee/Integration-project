@@ -45,8 +45,4 @@
 
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1512px) {
-  .background__sectionTwo {
-  background: url("../../assets/ipad/background-cutted.png");
-  background-size: cover;
-}
 }
