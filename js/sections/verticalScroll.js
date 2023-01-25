@@ -9,7 +9,7 @@ const verticalScroll = (gsap, ScrollTrigger) => {
     yPercent: 100,
   });
 
-  let firstTransition = gsap.timeline({
+  const firstTransition = gsap.timeline({
     scrollTrigger: {
       trigger: "#main__container--2",
       id: "container2",
@@ -30,7 +30,7 @@ const verticalScroll = (gsap, ScrollTrigger) => {
     0
   );
 
-  let secondTransition = gsap.timeline({
+  const secondTransition = gsap.timeline({
     scrollTrigger: {
       trigger: "#main__container--3",
       id: "container3",
@@ -51,7 +51,7 @@ const verticalScroll = (gsap, ScrollTrigger) => {
     0
   );
 
-  let thirdTransition = gsap.timeline({
+  const thirdTransition = gsap.timeline({
     scrollTrigger: {
       trigger: "#main__container--4",
       id: "container4",

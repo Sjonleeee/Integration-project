@@ -1,5 +1,7 @@
 @import url("./reset.css");
 
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
+
 @import url("/css/sections/intro.css");
 @import url("/css/sections/adolphe.css");
 @import url("/css/sections/sectionThree.css");
@@ -18,12 +20,10 @@
 }
 
 body {
-  font-size: 100%;
-  font-family: unibody-8-new, sans-serif;
-  font-weight: 400;
   color: white;
-  font-family: Baskerville;
+  font-family: 'Baskervville', serif;
   background-color: #f6efdd;
+  line-height: 1.3rem;
 }
 
 main {
@@ -53,5 +53,4 @@ img {
 .cutted__background {
   height: 95px;
   background-image: url("../assets/background-cutted.png");
-  background-position: left left;
 }
