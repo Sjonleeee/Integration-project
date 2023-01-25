@@ -20,20 +20,19 @@
 
 .date__text {
   display: inline-block;
-  font-size: 5vw;
 }
 
 .fixed__date__text {
   z-index: 999;
+  
 }
 
 .container__sideText {
   color: black;
   font-weight: 700;
   padding-left: 2vw;
-  font-size: 2vw;
   line-height: 2rem;
-  width: 45vw;
+  font-family: system-ui;
 }
 
 .hidden-element {
@@ -62,4 +61,15 @@
   width: 50%;
   height: 100vh;
   align-items: center;
+}
+
+/* Mobie version  */
+@media screen and (min-width: 390px) and (max-width: 834px) {
+  .container__sideText {
+    width: 90%;
+    font-size: 16px;
+  }
+  .date__text {
+    font-size: 20vw;
+  }
 }

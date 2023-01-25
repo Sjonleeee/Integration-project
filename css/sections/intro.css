@@ -88,10 +88,10 @@
 
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1512px) {
-  /* .background {
-    background-image: url("../assets/mobile/intro");
+  .intro__background {
+    background-image: url("../../assets/mobile/intro/background-noise.png");
     background-size: cover;
-  } */
+  }
 
   p {
     font-size: 1em;
@@ -154,6 +154,7 @@
     grid-column: 1;
     grid-row: 3 / 4;
     text-align: left;
+    /* font-size: 2rem; */
   }
 
   .intro__text--scroll {

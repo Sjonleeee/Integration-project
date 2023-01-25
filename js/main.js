@@ -2,6 +2,7 @@ import '../css/style.css'
 import intro from "./sections/intro.js";
 import adolphe from "./sections/adolphe.js";
 import sectionThree from "./sections/sectionThree.js";
+import verticalScroll from "./sections/verticalScroll.js";
 import features from "./sections/features.js";
 import sapphire from "./sections/sapphire.js";
 import family from './sections/family.js';
@@ -22,3 +23,4 @@ showFamily()
 guessMember()
 goToConcert()
 getInTouch()
+verticalScroll()
