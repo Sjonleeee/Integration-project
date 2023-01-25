@@ -2,17 +2,17 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
 
-@import url("/css/sections/intro.css");
-@import url("/css/sections/adolphe.css");
-@import url("/css/sections/sectionThree.css");
-@import url("sections/verticalScroll.css");
-@import url("/css/sections/features.css");
-@import url("sections/sapphire.css");
-@import url("sections/family.css");
-@import url("sections/showFamily.css");
-@import url("sections/guessMember.css");
-@import url("sections/goToConcert.css");
-@import url("sections/getInTouch.css");
+@import url("./sections/intro.css");
+@import url("./sections/adolphe.css");
+@import url("./sections/sectionThree.css");
+@import url("./sections/verticalScroll.css");
+@import url("./sections/features.css");
+@import url("./sections/sapphire.css");
+@import url("./sections/family.css");
+@import url("./sections/showFamily.css");
+@import url("./sections/guessMember.css");
+@import url("./sections/goToConcert.css");
+@import url("./sections/getInTouch.css");
 
 @font-face {
   font-family: "AlaChamp";
