@@ -22,8 +22,9 @@
   .sectionTwo__adolphe {
     position: relative;
     max-width: 220vw;
-    bottom: 70px;
+    bottom: 13vh;
     margin: 0 auto;
+    z-index: 1;
   }
 
   .sectionTwo__text {
@@ -32,6 +33,9 @@
     place-items: center;
   }
 
+  .title__date {
+    left: 350px;
+  }
   .sectionTwo__secretButton {
     grid-row: 5;
   }
@@ -41,6 +45,9 @@
     bottom: 28rem;
     left: 18rem;
   }
+}
+
+.sectionTwo__miniArrow {
 }
 
 /* Ipad version */
