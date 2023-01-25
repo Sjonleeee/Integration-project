@@ -9,6 +9,7 @@
     min-height: 100vh;
     grid-template-columns: 30vw 40vw 30vw;
     grid-template-rows: 30vh 40vh 30vh;
+    color: red;
   }
 
   .flowers {

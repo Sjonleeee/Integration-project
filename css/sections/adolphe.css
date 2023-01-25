@@ -4,7 +4,7 @@
 .sectionTwo {
   height: 100vh;
   grid-template-columns: auto;
-  grid-template-rows: 20vh 30vh 10vh 20vh 20vh;
+  grid-template-rows: 20vh 20vh 20vh 20vh 15vh;
   text-align: center;
   place-items: center;
   gap: 2vh;
@@ -41,13 +41,10 @@
   }
 
   .sectionTwo__mannekePis {
-    position: absolute;
-    bottom: 28rem;
-    left: 18rem;
+    position: relative;
+    bottom: 20rem;
+    left: 9rem;
   }
-}
-
-.sectionTwo__miniArrow {
 }
 
 /* Ipad version */

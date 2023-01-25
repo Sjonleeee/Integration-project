@@ -1,4 +1,3 @@
-
 const adolphe = (gsap) => {
   const tl = gsap.timeline({
     scrollTrigger: {
@@ -9,7 +8,7 @@ const adolphe = (gsap) => {
       end: "center 20%",
     },
   });
-  
+
   tl.from(".title__name", {
     x: -350,
 
@@ -24,14 +23,11 @@ const adolphe = (gsap) => {
     },
     "<"
   );
-  tl.from(
-    ".sectionTwo__miniArrowOne",
-    {
-      y: -350,
+  tl.from(".sectionTwo__miniArrowOne", {
+    y: -350,
 
-      duration: 6,
-    },
-  );
+    duration: 6,
+  });
 
   tl.from(
     ".sectionTwo__miniArrowTwo",
@@ -52,15 +48,17 @@ const adolphe = (gsap) => {
     "<"
   );
 
-   tl.from(
-     ".sectionTwo__secretButton",
-     {
-       opacity: 0,
-       y: -190,
-       duration: 8,
-     },
-     "<"
-   );
+  tl.from(".sectionTwo__secretButton", {
+    opacity: 0,
+    y: -190,
+    duration: 8,
+  });
+
+  tl.from(".sectionTwo__mannekePis", {
+    rotate: 100,
+    opacity: 0,
+    duration: 8,
+  });
 };
 
 export default adolphe;
