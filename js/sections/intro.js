@@ -7,17 +7,25 @@ const intro = () => {
     yoyo: true,
     repeat: -1,
   });
-  // gsap.to(".arrows", {
-  //   y: 10,
-  //   duration: 1,
-  //   yoyo: true,
-  //   repeat: -1,
-  // });
 
-  tl.to(".arrow1", { y: 50, duration: 0.3 });
-  tl.to(".arrow2", { y: 50, duration: 0.3, delay: 0.01 });
-  tl.to(".arrow3", { y: 50, duration: 0.3, delay: 0.02 });
-  tl.to(".arrow4", { y: 50, duration: 0.3, delay: 0.03 });
+  gsap.from(
+    [
+      ".intro__title",
+      ".intro__adolpheSax",
+      ".intro__text",
+      ".intro__text--scroll",
+    ],
+    {
+      opacity: 0,
+      y: 5,
+      duration: 1,
+    }
+  );
+
+  tl.to(".arrow1", { y: 50, duration: 0.5 });
+  tl.to(".arrow2", { y: 50, duration: 0.5, delay: 0.01 });
+  tl.to(".arrow3", { y: 50, duration: 0.5, delay: 0.02 });
+  tl.to(".arrow4", { y: 50, duration: 0.5, delay: 0.03 });
 };
 
 export default intro;

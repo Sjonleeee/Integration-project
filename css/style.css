@@ -15,10 +15,6 @@
 @font-face {
   font-family: "AlaChamp";
   src: url("../fonts/ala\ champ_demo.ttf") format("truetype");
-  /* font-family: "Baskerville";
-  src: url("../fonts/baskvl.ttf") format("truetype"); */
-  /* font-family: Baskerville, italic;
-  src: url("../fonts/BaskervilleBoldItalicBT.ttf"); */
 }
 
 body {
