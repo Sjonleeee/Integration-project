@@ -54,7 +54,6 @@ const adolphe = (gsap) => {
   });
 
   tl.from(".sectionTwo__mannekePis", {
-    rotate: 100,
     opacity: 0,
     duration: 8,
   });

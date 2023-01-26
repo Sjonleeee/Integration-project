@@ -4,27 +4,32 @@ const features = (gsap) => {
       trigger: ".background__features",
       scrub: true,
       markers: true,
-      start: "top 70%",
-      end: "top 0%",
+      start: "top 20%",
+      end: "top -20%",
     },
   });
 
-  tl.from([".features__love__the"], {
+  tl.from(".features__love__the", {
     x: 400,
     duration: 10,
   });
-  tl.from([".features__love__features"], {
+  tl.from(".features__love__features", {
     x: -400,
     duration: 10,
   });
 
-   tl.from([".features__love__adolphe"], {
+   tl.from(".features__love__adolphe", {
      x: 400,
      duration: 10,
    });
 
-  tl.from([".loves"], {
+  tl.from(".loves", {
     x: -400,
+    duration: 10,
+  });
+
+  tl.from([".features__text", ".features__sapphire"], {
+    opacity: 0,
     duration: 10,
   });
 

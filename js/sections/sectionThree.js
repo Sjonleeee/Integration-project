@@ -4,8 +4,8 @@ const sectionThree = (gsap) => {
       trigger: ".cutted__background",
       scrub: true,
       // markers: true,
-      start: "top 20%",
-      end: "bottom 0%",
+      start: "top 30%",
+      end: "bottom -15%",
     },
   });
 
