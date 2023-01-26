@@ -54,3 +54,39 @@ img {
   height: 95px;
   background-image: url("../assets/background-cutted.png");
 }
+
+.cutted__background__up {
+  height: 95px;
+  background-image: url("../assets/background-cutted-up.png");
+  z-index: 99;
+}
+
+@media screen and (min-width: 390px) and (max-width: 834px) {
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width: 834px) and (max-width: 1512px) {
+  p {
+    font-size: 1.3em;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 1512px) {
+  p {
+    font-size: 1.4em;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+}
