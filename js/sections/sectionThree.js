@@ -3,7 +3,7 @@ const sectionThree = (gsap) => {
     scrollTrigger: {
       trigger: ".cutted__background",
       scrub: true,
-      markers: true,
+      // markers: true,
       start: "top 20%",
       end: "bottom 0%",
     },
