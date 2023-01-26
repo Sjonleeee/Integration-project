@@ -19,7 +19,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 intro(gsap);
 adolphe(gsap);
-sectionThree();
+sectionThree(gsap);
 features();
 sapphire();
 family();
@@ -27,4 +27,4 @@ showFamily();
 guessMember();
 goToConcert();
 getInTouch();
-verticalScroll(gsap, ScrollTrigger);
+verticalScroll(gsap, ScrollTrigger)

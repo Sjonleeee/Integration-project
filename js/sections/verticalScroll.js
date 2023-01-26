@@ -1,9 +1,9 @@
 const verticalScroll = (gsap, ScrollTrigger) => {
-  ScrollTrigger.create({
-    trigger: ".verticalScroll",
-    pin: "#img__div",
-    //   markers: true,
-  });
+   ScrollTrigger.create({
+     trigger: ".verticalScroll",
+     pin: "#img__div",
+     //   markers: true,
+   });
 
   gsap.set(".img__div img + img", {
     yPercent: 100,
