@@ -16,7 +16,7 @@
 
 :root {
     --color-accent: #F37E89;
-    --font-size-body-copy: clamp(1.125rem, 1.069rem + .244vw, 1.313rem);
+    --font-size-body-copy: clamp(1.125rem, 1.069rem + 0,2vw, 1.713rem);
     --font-size-title: clamp(2rem, 1.820rem + 3.952vw, 100px);
 }
 
