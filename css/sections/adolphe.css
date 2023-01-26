@@ -1,17 +1,17 @@
 .sectionTwo {
   display: grid;
 }
-.sectionTwo {
-  height: 100vh;
-  grid-template-columns: auto;
-  grid-template-rows: 20vh 20vh 20vh 20vh 15vh;
-  text-align: center;
-  place-items: center;
-  gap: 2vh;
-}
 
 /* Mobie version  */
 @media screen and (min-width: 390px) and (max-width: 834px) {
+  .sectionTwo {
+    height: 100vh;
+    grid-template-columns: auto;
+    grid-template-rows: 20vh 20vh 20vh 20vh 15vh;
+    text-align: center;
+    place-items: center;
+    gap: 2vh;
+  }
   .sectionTwo__title {
     position: relative;
     top: 5rem;
@@ -21,7 +21,6 @@
 
   .sectionTwo__adolphe {
     position: relative;
-    max-width: 220vw;
     bottom: 13vh;
     margin: 0 auto;
     z-index: 1;
@@ -47,6 +46,23 @@
   }
 }
 
-/* Ipad version */
-@media screen and (min-width: 834px) and (max-width: 1512px) {
-}
+/* Mackbook pro 14 inch - Verion */
+/* @media screen and (min-width: 1512px) {
+  .sectionTwo {
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    place-items: center;
+    gap: 2vh;
+  }
+
+  .sectionTwo__adolphe {
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+    right: 50rem;
+    bottom: 13vh;
+    z-index: 1;
+  }
+} */
