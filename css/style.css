@@ -14,6 +14,12 @@
 @import url("./sections/goToConcert.css");
 @import url("./sections/getInTouch.css");
 
+:root {
+    --color-accent: #F37E89;
+    --font-size-body-copy: clamp(1.125rem, 1.069rem + .244vw, 1.313rem);
+    --font-size-title: clamp(2rem, 1.820rem + 3.952vw, 100px);
+}
+
 @font-face {
   font-family: "AlaChamp";
   src: url("../fonts/ala\ champ_demo.ttf") format("truetype");
@@ -23,7 +29,7 @@ body {
   color: white;
   font-family: "Baskervville", serif;
   background-color: #f6efdd;
-  font-size: 1.1rem;
+  font-size: var(--font-size-body-copy);
 }
 
 main {
@@ -37,7 +43,9 @@ main {
 p {
   line-height: 1.3em;
 }
-
+h1 {
+  font-size: var(--font-size-title);
+}
 img {
   max-width: 100%;
 }
@@ -59,34 +67,4 @@ img {
   height: 95px;
   background-image: url("../assets/background-cutted-up.png");
   z-index: 99;
-}
-
-@media screen and (min-width: 390px) and (max-width: 834px) {
-  p {
-    font-size: 1rem;
-  }
-
-  h1 {
-    font-size: 2.5em;
-  }
-}
-
-@media screen and (min-width: 834px) and (max-width: 1512px) {
-  p {
-    font-size: 1.3em;
-  }
-
-  h1 {
-    font-size: 4em;
-  }
-}
-
-@media screen and (min-width: 1512px) {
-  p {
-    font-size: 1.4em;
-  }
-
-  h1 {
-    font-size: 4em;
-  }
 }
