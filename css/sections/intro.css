@@ -20,7 +20,6 @@
 }
 .intro__title {
   font-family: AlaChamp;
-  font-size: 2.5rem;
 }
 
 .intro__title--small {
@@ -90,10 +89,6 @@
     gap: 2rem;
   }
 
-  .intro__title {
-    gap: 200%;
-  }
-
   .intro__body {
     gap: 4vh;
   }
@@ -134,7 +129,6 @@
     grid-column: 1;
     grid-row: 3 / 4;
     text-align: left;
-    font-size: 2rem;
   }
 
   .intro__text--scroll {

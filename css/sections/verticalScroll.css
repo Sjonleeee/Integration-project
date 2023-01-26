@@ -16,6 +16,7 @@
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  color: #F1B509;
 }
 
 .date__text {
@@ -23,16 +24,15 @@
 }
 
 .fixed__date__text {
-  z-index: 999;
+  z-index: 1;
   
 }
 
 .container__sideText {
-  color: black;
+  color: white;
   font-weight: 700;
   padding-left: 2vw;
   line-height: 2rem;
-  font-family: system-ui;
 }
 
 .hidden-element {
@@ -51,7 +51,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  object-fit: cover;
+  object-fit: contain;
   z-index: -2;
 }
 
