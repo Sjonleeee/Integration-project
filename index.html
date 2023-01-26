@@ -69,10 +69,18 @@
             <h1 class="sectionTwo__title title__name">Adolphe Sax</h1>
             <h1 class="sectionTwo__title title__date">1814 - 1894</h1>
           </div>
-          <img loading="lazy" class="sectionTwo__adolphe"
-            src="./assets/mobile/sectionTwo/adolphe-sax-red.png" alt="Adolphe
-            sax red image">
-          <div class="sectionTwo__text">
+          <picture>
+             <source media="(max-width: 390px)"
+                  srcset="./assets/mobile/intro/adolphe-sax.png">
+              <source media="(min-width: 834px)"
+                srcset="./assets/ipad/sectionTwo/adolphe-sax-red.png">
+              <source media="(min-width: 1512px)"
+                srcset="./assets/desktop/sectionTwo/adolphe-sax.png">
+              <img loading="lazy" class="sectionTwo__adolphe"
+                src="./assets/mobile/sectionTwo/adolphe-sax-red.png"
+                alt="adolphe sax red images">
+          </picture>
+            <div class="sectionTwo__text">
             <img loading="lazy" class="sectionTwo__miniArrowOne"
               src="./assets/mobile/sectionTwo/mini-arrow.png" alt="Mini arrow">
             <p class="sectionTwo__p">I am passionned for music and mechanics,
