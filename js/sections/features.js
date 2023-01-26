@@ -3,8 +3,8 @@ const features = (gsap) => {
     scrollTrigger: {
       trigger: ".background__features",
       scrub: true,
-      markers: true,
-      start: "top 20%",
+      // markers: true,
+      start: "top 30%",
       end: "top -20%",
     },
   });
@@ -29,8 +29,9 @@ const features = (gsap) => {
   });
 
   tl.from([".features__text", ".features__sapphire"], {
+    y: -100,
     opacity: 0,
-    duration: 10,
+    duration: 80,
   });
 
 

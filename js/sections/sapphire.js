@@ -1,4 +1,5 @@
-const sapphire = () => {
+const sapphire = (gsap) => {
+    
 };
 
 export default sapphire;

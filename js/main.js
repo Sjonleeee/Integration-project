@@ -28,4 +28,3 @@ guessMember();
 goToConcert();
 getInTouch();
 verticalScroll(gsap, ScrollTrigger)
-
