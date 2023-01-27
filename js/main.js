@@ -30,25 +30,13 @@ goToConcert();
 getInTouch();
 verticalScroll(gsap, ScrollTrigger)
 
-// function playMusic() {
-// const $titanic__song = document.QuerySelector(".titanic__song")
-// $titanic__song.play();
-
-// if () {
-    
-// } else {
-    
-// }
-// }
-
-
-let song = new Audio("./assets/song/titanic.mp3");
+let song = new Audio("./public/song/titanic.mp3");
 const titanic = (event) => {
-    console.log('test')
   song.play();
 };
 
 let sapphire__song = document.querySelector(".sapphire__song");
+
 const init = () => {
     sapphire__song.addEventListener("click", titanic);
 }
