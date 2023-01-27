@@ -1,6 +1,7 @@
 @import url("./reset.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
+@import url('../node_modules/font-awesome/css/font-awesome.min.css');
 
 @import url("./sections/intro.css");
 @import url("./sections/adolphe.css");
@@ -13,6 +14,7 @@
 @import url("./sections/guessMember.css");
 @import url("./sections/goToConcert.css");
 @import url("./sections/getInTouch.css");
+
 
 :root {
     --color-accent: #F37E89;
