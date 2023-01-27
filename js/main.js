@@ -15,8 +15,11 @@ import getInTouch from "./sections/getInTouch.js";
 
 import "../css/style.css";
 
-
 gsap.registerPlugin(ScrollTrigger);
+
+const click = () => {
+  console.log("test");
+};
 
 intro(gsap);
 adolphe(gsap);
@@ -28,9 +31,9 @@ showFamily();
 guessMember();
 goToConcert();
 getInTouch();
-verticalScroll(gsap, ScrollTrigger)
+verticalScroll(gsap, ScrollTrigger);
 
-let song = new Audio("./public/song/titanic.mp3");
+let song = new Audio("/song/titanic.mp3");
 const titanic = (event) => {
   song.play();
 };
@@ -38,6 +41,6 @@ const titanic = (event) => {
 let sapphire__song = document.querySelector(".sapphire__song");
 
 const init = () => {
-    sapphire__song.addEventListener("click", titanic);
-}
-init()
+  sapphire__song.addEventListener("click", titanic);
+};
+init();

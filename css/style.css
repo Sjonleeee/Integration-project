@@ -1,7 +1,7 @@
 @import url("./reset.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
-@import url('../node_modules/font-awesome/css/font-awesome.min.css');
+@import url("../node_modules/font-awesome/css/font-awesome.min.css");
 
 @import url("./sections/intro.css");
 @import url("./sections/adolphe.css");
@@ -15,11 +15,11 @@
 @import url("./sections/goToConcert.css");
 @import url("./sections/getInTouch.css");
 
-
 :root {
-    --color-accent: #F37E89;
-    --font-size-body-copy: clamp(1.125rem, 1.069rem + 0,2vw, 1.713rem);
-    --font-size-title: clamp(2rem, 1.820rem + 3.952vw, 100px);
+  --color-accent-red: #c92e2f;
+  --color-accent-yellow: #F1B509;
+  --font-size-body-copy: clamp(1.125rem, 1.069rem + 0, 2vw, 1.713rem);
+  --font-size-title: clamp(2rem, 1.82rem + 3.952vw, 100px);
 }
 
 @font-face {
