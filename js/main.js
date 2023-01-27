@@ -33,7 +33,7 @@ goToConcert();
 getInTouch();
 verticalScroll(gsap, ScrollTrigger);
 
-let song = new Audio("/song/titanic.mp3");
+let song = new Audio("./song/titanic.mp3");
 const titanic = (event) => {
   song.play();
 };
