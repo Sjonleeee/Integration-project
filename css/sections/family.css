@@ -2,37 +2,34 @@
 .span__to {
   font-style: italic;
 }
-
-/* Mobie version  */
-@media screen and (min-width: 390px) {
-  .family {
-    min-height: 100vh;
-    background-image: url("../../assets/mobile/features/background__feature.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-  }
-
-  .family p {
-    font-size: 1.4rem;
-  }
-  .family__title {
-    display: flex;
-    height: 90vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .family__title p {
-    font-size: 3.3rem;
-  }
-
-  .span__to {
-    font-size: 2rem;
-  }
-
-  .span__family {
-    color: #f1b509;
-  }
+.family {
+  min-height: 100vh;
+  background-image: url("../../assets/mobile/features/background__feature.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
+
+.family p {
+  font-size: 1.4rem;
+}
+.family__title {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.family__title p {
+  font-size: 3.3rem;
+}
+
+.span__to {
+  font-size: 2rem;
+}
+
+.span__family {
+  color: #f1b509;
+}
+

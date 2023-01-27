@@ -73,12 +73,6 @@
   width: 10%;
 }
 
-
-/* Mobie version  */
-@media screen and (min-width: 390px) and (max-width: 834px) {
-
-}
-
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1512px) {
   .intro {
