@@ -33,8 +33,6 @@ const features = (gsap) => {
     opacity: 0,
     duration: 80,
   });
-
-
 };
 
 export default features;
