@@ -68,6 +68,7 @@
 
 .sapphire__text {
   display: flex;
+  margin-top: 3vh;
   text-align: center;
   flex-direction: column;
   gap: 2.5vh;
@@ -78,11 +79,13 @@
 
 .sapphire__h1 {
   color: var(--color-accent-red);
+  line-height: 3vh;
 }
 
 .mouthCloseBtn,
 .bodyCloseBtn,
-.leftHandCloseBtn {
+.leftHandCloseBtn,
+.rightHandCloseBtn {
   text-align: end;
   padding-right: 1vh;
 }
@@ -127,6 +130,23 @@
   gap: 7vh;
   color: black;
   background-image: url("../../assets/mobile/sapphire/paper-cut-leftHand.png");
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+/* Righthand info */
+.sapphire__rightHand--info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  top: 8150px;
+  height: 50vh;
+  margin-inline: 5vh;
+  z-index: 999;
+  gap: 7vh;
+  color: black;
+  background-image: url("../../assets/mobile/sapphire/paper-cut-rightHand.png");
   background-position: top;
   background-repeat: no-repeat;
 }
