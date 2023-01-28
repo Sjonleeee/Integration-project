@@ -85,7 +85,8 @@
 .mouthCloseBtn,
 .bodyCloseBtn,
 .leftHandCloseBtn,
-.rightHandCloseBtn {
+.rightHandCloseBtn,
+.bellCloseBtn {
   text-align: end;
   padding-right: 1vh;
 }
@@ -136,7 +137,7 @@
 
 /* Righthand info */
 .sapphire__rightHand--info {
-  display: flex;
+  display: none;
   justify-content: space-between;
   flex-direction: column;
   position: absolute;
@@ -147,6 +148,23 @@
   gap: 7vh;
   color: black;
   background-image: url("../../assets/mobile/sapphire/paper-cut-rightHand.png");
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+/* Bell info */
+.sapphire__bell--info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  top: 8150px;
+  height: 50vh;
+  margin-inline: 5vh;
+  z-index: 999;
+  gap: 7vh;
+  color: black;
+  background-image: url("../../assets/mobile/sapphire/paper-cut-bell.png");
   background-position: top;
   background-repeat: no-repeat;
 }
