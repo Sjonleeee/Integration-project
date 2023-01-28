@@ -49,6 +49,7 @@
   gap: 4vh;
 }
 
+/* Cards info */
 .sapphire__mouth--info {
   position: absolute;
   top: 8150px;
@@ -67,7 +68,7 @@
 
 .sapphire__mouth__text {
   display: flex;
-  text-align: left;
+  text-align: center;
   flex-direction: column;
   gap: 2.5vh;
   justify-content: center;
@@ -79,12 +80,39 @@
   color: var(--color-accent-red);
 }
 
-.closeBtn {
+.closeBtnMouth, .closeBtnBody {
   text-align: end;
+  padding-right: 1vh;
 }
 
 .star {
   text-align: center;
-  color:var(--color-accent-yellow);
+  color: var(--color-accent-yellow);
   opacity: 80%;
+}
+
+.sapphire__body--info {
+  position: absolute;
+  top: 8150px;
+  z-index: 999;
+  display: none;
+  height: 50vh;
+  margin-inline: 5vh;
+  color: black;
+  background-image: url("../../assets/mobile/sapphire/paper-cut-body.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  gap: 7vh;
+  flex-direction: column;
+}
+
+.sapphire__body__text {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 2.5vh;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 20px;
 }

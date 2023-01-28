@@ -70,3 +70,8 @@ img {
   background-image: url("../assets/background-cutted-up.png");
   z-index: 99;
 }
+
+.sapphire__song {
+  z-index: 999;
+  cursor: pointer;
+}
