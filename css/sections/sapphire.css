@@ -80,7 +80,9 @@
   color: var(--color-accent-red);
 }
 
-.mouthCloseBtn, .bodyCloseBtn {
+.mouthCloseBtn,
+.bodyCloseBtn,
+.leftHandCloseBtn {
   text-align: end;
   padding-right: 1vh;
 }
@@ -91,19 +93,40 @@
   opacity: 80%;
 }
 
+.sapphire__smallText {
+  font-size: 1.4rem;
+}
+
 /* Body info */
 .sapphire__body--info {
+  display: none;
+  justify-content: space-between;
+  flex-direction: column;
   position: absolute;
   top: 8150px;
-  z-index: 999;
-  display: none;
   height: 50vh;
   margin-inline: 5vh;
+  z-index: 999;
+  gap: 7vh;
   color: black;
   background-image: url("../../assets/mobile/sapphire/paper-cut-body.png");
   background-position: top;
   background-repeat: no-repeat;
+}
+
+/* Lefthand info */
+.sapphire__leftHand--info {
+  display: flex;
   justify-content: space-between;
-  gap: 7vh;
   flex-direction: column;
+  position: absolute;
+  top: 8150px;
+  height: 50vh;
+  margin-inline: 5vh;
+  z-index: 999;
+  gap: 7vh;
+  color: black;
+  background-image: url("../../assets/mobile/sapphire/paper-cut-leftHand.png");
+  background-position: top;
+  background-repeat: no-repeat;
 }
