@@ -40,7 +40,7 @@ main {
   position: relative;
   overflow-x: hidden;
   background-image: url("../assets/seamless-background.jpeg");
-  /* z-index: -1; */
+  z-index: -1;
 }
 
 p {
@@ -57,7 +57,8 @@ img {
 .intro,
 .sectionTwo,
 .features,
-.sapphire {
+.sapphire,
+.membersFamily {
   margin-inline: 5vw;
   padding-top: 3vh;
 }

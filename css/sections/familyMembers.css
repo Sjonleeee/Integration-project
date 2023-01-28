@@ -1,0 +1,58 @@
+.membersFamily {
+  display: grid;
+  height: 100vh;
+  gap: 2.5vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 50vh 20vh 10vh;
+  align-self: center;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+}
+
+.membersFamily__h1 {
+  font-family: "JanuaryShine";
+  font-weight: 200;
+  font-size: 4rem;
+  color: var(--color-accent-yellow);
+}
+
+.membersFamily__member {
+    font-family: "AlaChamp";
+    font-size: 1.5rem;
+    color: var(--color-accent-red);
+}
+.sopranoBtn {
+  background-color: var(--color-accent-red);
+  border: 2px solid #422800;  
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.sopranoBtn:hover {
+  background-color: #fff;
+}
+
+.sopranoBtn:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .sopranoBtn {
+    min-width: 200px;
+    padding: 0 25px;
+  }
+}

@@ -154,7 +154,7 @@
 
 /* Bell info */
 .sapphire__bell--info {
-  display: flex;
+  display: none;
   justify-content: space-between;
   flex-direction: column;
   position: absolute;

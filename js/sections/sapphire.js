@@ -19,6 +19,11 @@ const sapphire = (gsap) => {
   const rightHandBtnClose = document.querySelector(".rightHandCloseIcon");
   const rightHandInfo = document.querySelector(".sapphire__rightHand--info");
 
+  // Right hand buttons
+  const bellBtn = document.querySelector("#bell--click");
+  const bellBtnClose = document.querySelector(".bellCloseIcon");
+  const bellInfo = document.querySelector(".sapphire__bell--info");
+
   // ------------------------------------------------------------------
   // Mouth click
   mouthBtn.addEventListener("click", () => {
@@ -48,9 +53,16 @@ const sapphire = (gsap) => {
   rightHandBtn.addEventListener("click", () => {
     rightHandInfo.style.display = "flex";
   });
-
   rightHandBtnClose.addEventListener("click", () => {
     rightHandInfo.style.display = "none";
+  });
+
+  //  Righthand click
+  bellBtn.addEventListener("click", () => {
+    bellInfo.style.display = "flex";
+  });
+  bellBtnClose.addEventListener("click", () => {
+    bellInfo.style.display = "none";
   });
 };
 
