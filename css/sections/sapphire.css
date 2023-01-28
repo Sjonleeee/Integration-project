@@ -116,7 +116,7 @@
 
 /* Lefthand info */
 .sapphire__leftHand--info {
-  display: flex;
+  display: none;
   justify-content: space-between;
   flex-direction: column;
   position: absolute;

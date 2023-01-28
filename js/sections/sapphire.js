@@ -7,6 +7,10 @@ const sapphire = (gsap) => {
   const mouthBtnClose = document.querySelector(".mouthCloseIcon");
   const mouthInfo = document.querySelector(".sapphire__mouth--info");
 
+  const leftHandBtn = document.querySelector("#leftHand--click");
+  const leftHandBtnClose = document.querySelector(".leftHandCloseIcon");
+  const leftHandInfo = document.querySelector(".sapphire__leftHand--info");
+
   const bodyBtn = document.querySelector("#body--click");
   const bodyBtnClose = document.querySelector(".bodyCloseIcon");
   const bodyInfo = document.querySelector(".sapphire__body--info");
@@ -18,6 +22,15 @@ const sapphire = (gsap) => {
 
   mouthBtnClose.addEventListener("click", () => {
     mouthInfo.style.display = "none";
+  });
+
+  // LeftHand
+  leftHandBtn.addEventListener("click", () => {
+    leftHandInfo.style.display = "flex";
+  });
+
+  leftHandBtnClose.addEventListener("click", () => {
+    leftHandInfo.style.display = "none";
   });
 
   //  Body
