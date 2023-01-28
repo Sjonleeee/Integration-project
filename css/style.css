@@ -10,14 +10,13 @@
 @import url("./sections/features.css");
 @import url("./sections/sapphire.css");
 @import url("./sections/family.css");
-@import url("./sections/showFamily.css");
-@import url("./sections/guessMember.css");
+@import url("./sections/familyMembers.css");
 @import url("./sections/goToConcert.css");
 @import url("./sections/getInTouch.css");
 
 :root {
   --color-accent-red: #c92e2f;
-  --color-accent-yellow: #F1B509;
+  --color-accent-yellow: #f1b509;
   --font-size-body-copy: clamp(1.125rem, 1.069rem + 0, 2vw, 1.713rem);
   --font-size-title: clamp(2rem, 1.82rem + 3.952vw, 100px);
 }
@@ -25,6 +24,8 @@
 @font-face {
   font-family: "AlaChamp";
   src: url("../fonts/ala_champ.ttf") format("truetype");
+  font-family: "JanuaryShine";
+  src: url("../fonts/januaryshine-zvrem.ttf") format("truetype");
 }
 
 body {
@@ -45,6 +46,7 @@ main {
 p {
   line-height: 1.3em;
 }
+
 h1 {
   font-size: var(--font-size-title);
 }
