@@ -1,0 +1,20 @@
+.concerts{
+    display: grid;
+    grid-template-rows: 20vh 5vh 60vh;
+    text-align: center;
+    align-content: center;
+    place-items: center;
+    height: 100vh;
+    background-color: var(--color--background-beige);
+    color: black;
+}
+
+.concerts__title {
+    font-family: "JanuaryShine";
+    font-size: 5rem;
+    text-align: center;
+    color: var(--color-accent-red);
+}
+.concert__qoute {
+    font-size: 2rem;
+}
