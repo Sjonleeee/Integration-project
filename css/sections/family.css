@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-.family p {
+.family__p {
   font-size: 1.4rem;
 }
 .family__title {
@@ -22,7 +22,7 @@
 }
 
 .family__title p {
-  font-size: 3.3rem;
+  font-size: 3.3em;
 }
 
 .span__to {
@@ -33,3 +33,21 @@
   color: #f1b509;
 }
 
+/* Ipad version */
+@media screen and (min-width: 834px) and (max-width: 1512px) {
+  .family__title {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .family__p {
+    font-size: 2.5rem;
+  }
+
+  .family__title p {
+    font-size: 6.5rem;
+  }
+}

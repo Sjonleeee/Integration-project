@@ -35,7 +35,6 @@
   .features {
     display: grid;
     min-height: 100vh;
-    grid-column: 1fr 1fr 1fr 1fr;
     grid-template-rows: 60vh 20vh;
     z-index: 999;
   }
