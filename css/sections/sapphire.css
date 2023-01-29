@@ -6,10 +6,15 @@
   background-image: url("../../assets/mobile/sapphire/saxophone.png");
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
 }
 
 .sapphire i {
   color: var(--color-accent-red);
+}
+
+.sapphire h1 {
+  grid-column: 1 / 11;
 }
 
 .sapphire__mouth {

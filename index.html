@@ -179,24 +179,44 @@
           <section class="sectionThree">
             <h1 class="sectionThree__adolpheSax">Adolphe Sax</h1>
             <div class="sectionThree__images">
-              <img
-                loading="lazy"
-                class="head__adolphe"
-                src="./assets/mobile/adolph-and-sapphire/head-adolphe.png"
-                alt="adolphes head"
-              />
-              <img
-                loading="lazy"
-                class="flowers"
-                src="./assets/mobile/adolph-and-sapphire/heart-flowers.png"
-                alt="flowers"
-              />
-              <img
-                loading="lazy"
-                class="saxophone"
-                src="./assets/mobile/adolph-and-sapphire/saxophone.png"
-                alt="saxophone"
-              />
+              <picture>
+                <source
+                  media="(min-width: 834px )"
+                  srcset="./assets/ipad/sectionThree/head-adolphe.png"
+                />
+                <img
+                  loading="lazy"
+                  class="head__adolphe"
+                  src="./assets/mobile/adolph-and-sapphire/head-adolphe.png"
+                  alt="adolphes head"
+                />
+              </picture>
+
+              <picture>
+                <source
+                  media="(min-width: 834px )"
+                  srcset="./assets/ipad/sectionThree/heart-flowers.png"
+                />
+                <img
+                  loading="lazy"
+                  class="flowers"
+                  src="./assets/mobile/adolph-and-sapphire/heart-flowers.png"
+                  alt="flowers"
+                />
+              </picture>
+
+              <picture>
+                <source
+                  media="(min-width: 834px )"
+                  srcset="./assets/ipad/sectionThree/saxophone.png"
+                />
+                <img
+                  loading="lazy"
+                  class="saxophone"
+                  src="./assets/mobile/adolph-and-sapphire/saxophone.png"
+                  alt="saxophone"
+                />
+              </picture>
             </div>
             <h1 class="sectionThree__sapphire">Sapphire</h1>
           </section>
@@ -343,6 +363,7 @@
 
         <!-- Saxophone features -->
         <section class="sapphire">
+          <h1>Let's get to know her better</h1>
           <!-- Mouth -->
           <div class="sapphire__mouth">
             <p>Mouth Piece</p>

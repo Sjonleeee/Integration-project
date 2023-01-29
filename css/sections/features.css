@@ -9,8 +9,7 @@
   .features {
     display: grid;
     min-height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 60vh 20vh 20vh;
+    grid-template-rows: 60vh 10vh 30vh;
     text-align: center;
     place-items: center;
     z-index: 999;
