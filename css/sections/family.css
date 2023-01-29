@@ -51,3 +51,31 @@
     font-size: 6.5rem;
   }
 }
+
+/* Mackbook pro 14 inch - Verion */
+@media screen and (min-width: 1512px) {
+  .family__title {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 20vh);
+    margin-inline: 100px;
+  }
+  .family__title p {
+    font-size: 9.5rem;
+  }
+
+  .family__title__soThey {
+    grid-column: 1 / 7;
+    text-align: left;
+  }
+
+  .family__title__decide {
+    grid-column: 2 / 7;
+    text-align: left;
+  }
+  .family__title__family {
+    grid-column: 3 / 7;
+  }
+}
