@@ -1,20 +1,73 @@
-.concerts{
-    display: grid;
-    grid-template-rows: 20vh 20vh 60vh;
-    text-align: center;
-    align-content: center;
-    place-items: center;
-    height: 100vh;
-    background-color: var(--color--background-beige);
-    color: black;
+.concerts__background {
+  background-color: var(--color--background-beige);
+}
+.concerts {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 10vh 10vh 60vh;
+  text-align: center;
+  align-content: center;
+  place-items: center;
+  color: black;
 }
 
 .concerts__title {
-    font-family: "JanuaryShine";
-    font-size: 5rem;
-    text-align: center;
-    color: var(--color-accent-red);
+  font-family: "JanuaryShine";
+  font-size: 5rem;
+  text-align: center;
+  color: var(--color-accent-red);
 }
 .concert__qoute {
-    font-size: 2rem;
+  font-size: 2rem;
+}
+
+.concerts__saxophonist--bg {
+  background-image: url("../../assets/mobile/theConcerts/saxophone-player1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+}
+
+.concerts__saxophonist {
+  width: 60%;
+}
+
+/* Ipad version */
+@media screen and (min-width: 834px) and (max-width: 1512px) {
+  .concerts {
+    display: grid;
+    grid-template-rows: 5vh 20vh 60vh;
+  }
+
+  .concerts__title {
+    font-size: 10rem;
+  }
+  .concerts__saxophonist--bg {
+    background-image: url("../../assets/mobile/theConcerts/saxophone-player1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+  }
+
+  .concerts__saxophonist {
+    width: 50%;
+  }
+}
+
+/* Mackbook pro 14 inch - Verion */
+@media screen and (min-width: 1512px) {
+  .concerts {
+    display: grid;
+    height: 100vh;
+    gap: 2rem;
+    grid-template-rows: 10vh 20vh 60vh;
+  }
+  .concert__qoute {
+    font-size: 3rem;
+  }
+  .concerts__saxophonist {
+    width: 25%;
+  }
 }
