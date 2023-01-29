@@ -18,13 +18,13 @@
 }
 
 .membersFamily__member {
-    font-family: "AlaChamp";
-    font-size: 1.5rem;
-    color: var(--color-accent-red);
+  font-family: "AlaChamp";
+  font-size: 1.5rem;
+  color: var(--color-accent-red);
 }
 .button__style {
   background-color: var(--color-accent-red);
-  border: 2px solid #422800;  
+  border: 2px solid #422800;
   border-radius: 30px;
   box-shadow: #422800 4px 4px 0 0;
   color: #422800;
@@ -45,10 +45,39 @@
   background-color: #fff;
 }
 
-
-@media (min-width: 768px) {
+/* Ipad version */
+@media screen and (min-width: 834px) and (max-width: 1512px) {
   .button__style {
-    min-width: 200px;
-    padding: 0 25px;
+    min-width: 20vh;
+    padding: 1vh 2vh;
+    font-size: 1.4rem;
+  }
+  .membersFamily img {
+    width: 40vh;
+  }
+  .membersFamily__h1 {
+    font-size: 7rem;
+  }
+
+  .membersFamily {
+    display: grid;
+    height: 100vh;
+    gap: 2.5vh;
+    grid-template-rows: 10vh 40vh 20vh 10vh;
+    align-self: center;
+    text-align: center;
+    place-content: center;
+    place-items: center;
+    align-content: center;
+  }
+  .membersFamily__information {
+    margin-inline: 5vh;
+  }
+}
+/* Mackbook pro 14 inch - Verion */
+@media screen and (min-width: 1512px) {
+  .membersFamily__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
   }
 }
