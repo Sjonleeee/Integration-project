@@ -1,24 +1,106 @@
-  .background__features {
-    min-height: 100vh;
-    background-image: url("../../assets/mobile/features/background__feature.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 999;
-  }
+.background__features {
+  min-height: 100vh;
+  background-image: url("../../assets/mobile/features/background__feature.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
 
+.features {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: 60vh 10vh 30vh;
+  text-align: center;
+  place-items: center;
+  z-index: 999;
+}
+
+.features__love p {
+  font-size: 4em;
+}
+
+.features__love__adolphe {
+  font-size: 4rem;
+}
+
+.features__sapphire {
+  font-size: 4em;
+  font-family: "JanuaryShine";
+  font-weight: 100;
+  color: var(--color-accent-yellow);
+}
+
+/* Ipad version */
+@media screen and (min-width: 834px) and (max-width: 1512px) {
   .features {
     display: grid;
     min-height: 100vh;
-    grid-template-rows: 60vh 10vh 30vh;
-    text-align: center;
-    place-items: center;
+    grid-column: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60vh 20vh;
     z-index: 999;
   }
 
-  .features__love p {
-    font-size: 4rem;
+  .features__love {
+    display: grid;
+    margin-inline: 20px;
+    grid-template-columns: repeat(6, 10vh);
+    color: var(--color-accent-yellow);
+    font-size: 1.8rem;
+  }
+  .features__love__the {
+    grid-column: 2 / 7;
+    text-align: left;
+  }
+  .features__sapphire {
+    font-size: 7rem;
+  }
+  .features__love__features {
+    grid-column: 2 / 7;
+  }
+  .features__love__adolphe {
+    font-style: italic;
+  }
+  .features__love__adolphe {
+    grid-column: 1/ 5;
+  }
+  .loves {
+    grid-column: 5 / 7;
   }
 
   .features__love__adolphe {
-    font-size: 20px;
+    font-size: 20rem;
   }
+
+  .features__text {
+    display: flex;
+    text-align: left;
+    grid-column: 1fr 1fr;
+  }
+}
+
+/* Mackbook pro 14 inch - Verion */
+@media screen and (min-width: 1512px) {
+  .features {
+    display: grid;
+    min-height: 100vh;
+    grid-column: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60vh 40vh;
+    z-index: 999;
+  }
+
+  .features__love {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    color: var(--color-accent-yellow);
+    font-size: 2.5rem;
+  }
+  .features__text {
+    display: flex;
+    width: 90vh;
+    text-align: left;
+    grid-column: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+}
