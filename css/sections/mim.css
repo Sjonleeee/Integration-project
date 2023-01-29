@@ -1,0 +1,24 @@
+.mim {
+  background-color: var(--color--background-beige);
+  color: black;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20vh 15vh 30vh 20vh;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  align-content: center;
+}
+
+.mim__perfomances {
+    font-size: 3.5rem;
+    font-family: "JanuaryShine";
+    color: var(--color-accent-red);
+}
+
+.agenda__concerts {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}

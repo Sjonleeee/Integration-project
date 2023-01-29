@@ -14,11 +14,12 @@
 @import url("./sections/theConcerts.css");
 @import url("./sections/goToConcert.css");
 @import url("./sections/getInTouch.css");
+@import url("./sections/mim.css");
 
 :root {
   --color-accent-red: #c92e2f;
   --color-accent-yellow: #f1b509;
-  --color--background-beige: #F6EFDD;
+  --color--background-beige: #f6efdd;
   --font-AlaChamp: "AlaChamp";
   --font-size-body-copy: clamp(1.125rem, 1.069rem + 0, 2vw, 1.713rem);
   --font-size-title: clamp(2rem, 1.82rem + 3.952vw, 100px);
@@ -42,10 +43,12 @@ main {
   margin: auto;
   position: relative;
   overflow-x: hidden;
-  background-image: url("../assets/seamless-background.jpeg");
-  /* z-index: -1; */
 }
 
+.background__image {
+  background-image: url("../assets/seamless-background.jpeg");
+  z-index: -1;
+}
 p {
   line-height: 1.3em;
 }
@@ -61,7 +64,12 @@ img {
 .sectionTwo,
 .features,
 .sapphire,
-.membersFamily {
+.membersFamily,
+.familyMembers.css,
+.theConcerts.css,
+.goToConcert.css,
+.mim.css
+.verticalScroll.css {
   margin-inline: 5vw;
   padding-top: 3vh;
 }
@@ -81,4 +89,28 @@ img {
 .sapphire__song {
   z-index: 999;
   cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  height: 25vh;
+  padding-bottom: 2rem;
+}
+
+.footer__adres {
+  font-size: 1.5rem;
+}
+
+.footer__social__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  color: black;
+  height: 50%;
+  background-color: var(--color--background-beige);
+  border-radius: 2rem;
 }
