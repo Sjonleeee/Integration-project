@@ -1,10 +1,12 @@
-.mim {
+.mim__background {
   background-color: var(--color--background-beige);
+}
+.mim {
   color: black;
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 20vh 15vh 30vh 20vh;
+  grid-template-rows: 10vh 15vh 30vh 20vh;
   text-align: center;
   place-content: center;
   place-items: center;
@@ -12,13 +14,29 @@
 }
 
 .mim__perfomances {
-    font-size: 3.5rem;
-    font-family: "JanuaryShine";
-    color: var(--color-accent-red);
+  font-size: 3.5rem;
+  font-family: "JanuaryShine";
+  color: var(--color-accent-red);
 }
 
 .agenda__concerts {
-    display: flex;
-    flex-direction: column;
-    gap: 3vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+/* Ipad version */
+@media screen and (min-width: 834px) and (max-width: 1512px) {
+  .mim {
+    padding-top: 20%;
+    gap: 2rem;
+  }
+  .mim__perfomances {
+    font-size: 8rem;
+    font-family: "JanuaryShine";
+    color: var(--color-accent-red);
+  }
+  .mim__img {
+    width: 80%;
+  }
 }
