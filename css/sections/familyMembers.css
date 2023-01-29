@@ -1,4 +1,4 @@
-.membersFamily {
+.familyMembers {
   display: grid;
   height: 100vh;
   gap: 2.5vh;
@@ -10,14 +10,14 @@
   place-items: center;
 }
 
-.membersFamily__h1 {
+.familyMembers__h1 {
   font-family: "JanuaryShine";
   font-weight: 200;
   font-size: 4rem;
   color: var(--color-accent-yellow);
 }
 
-.membersFamily__member {
+.familyMembers__member {
   font-family: "AlaChamp";
   font-size: 1.5rem;
   color: var(--color-accent-red);
@@ -47,19 +47,7 @@
 
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1512px) {
-  .button__style {
-    min-width: 20vh;
-    padding: 1vh 2vh;
-    font-size: 1.4rem;
-  }
-  .membersFamily img {
-    width: 40vh;
-  }
-  .membersFamily__h1 {
-    font-size: 7rem;
-  }
-
-  .membersFamily {
+  .familyMembers {
     display: grid;
     height: 100vh;
     gap: 2.5vh;
@@ -70,14 +58,39 @@
     place-items: center;
     align-content: center;
   }
-  .membersFamily__information {
+  .familyMembers img {
+    width: 40vh;
+  }
+  .familyMembers__h1 {
+    font-size: 7rem;
+  }
+  .familyMembers__information {
     margin-inline: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .familyMembers__member {
+    font-size: 3rem;
+  }
+
+  .button__style {
+    min-width: 20vh;
+    padding: 1vh 2vh;
+    font-size: 1.4rem;
   }
 }
+
 /* Mackbook pro 14 inch - Verion */
 @media screen and (min-width: 1512px) {
-  .membersFamily__wrapper {
+  .familyMembers__wrapper {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .familyMembers {
+   gap: 5rem;
+   margin-bottom: 4rem;
   }
 }
