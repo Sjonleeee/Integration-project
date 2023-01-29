@@ -25,11 +25,64 @@
 
 .goToConcerts__join {
   font-size: 1.9rem;
-  color: var(--color-accent-red);
+  color: var(--color-accent-yellow);
 }
 
-.goToConcerts i, .goToConcerts__join {
-  color: var(--color-accent-red);
+.goToConcerts i,
+.goToConcerts__join {
+  color: var(--color-accent-yellow);
 }
 
+/* Ipad version */
+@media screen and (min-width: 834px) and (max-width: 1512px) {
+  .goToConcerts__adolpheAndSapphire {
+    font-size: 2.5rem;
+  }
+  .goToConcerts__title p {
+    font-size: 7rem;
+    line-height: 88%;
+  }
+  .goToConcerts__title__small {
+    font-style: italic;
+    font-size: 4rem;
+  }
+}
 
+/* Mackbook pro 14 inch - Verion */
+@media screen and (min-width: 1512px) {
+  .goToConcerts {
+  gap: 30px;
+  height: 100vh;
+  }
+
+  .goToConcerts__title {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-inline: 5%;
+  }
+  .goToConcerts__title p {
+    font-size: 8rem;
+    line-height: 88%;
+  }
+
+  .goToConcerts__go {
+    grid-column: 1 / 4;
+    text-align: left;
+  }
+  .goToConcerts__inTheir {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    margin-left: 15%;
+    text-align: left;
+  }
+
+  .goToConcerts__title__freeTime {
+    grid-column: 1 / 4;
+    grid-row: 3;
+    text-align: right;
+  }
+  .goToConcerts__information {
+    margin-inline: 20%;
+    text-align: center;
+  }
+}
