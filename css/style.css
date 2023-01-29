@@ -44,7 +44,9 @@ main {
   position: relative;
   overflow-x: hidden;
 }
-
+section {
+  padding-block: 5%;
+}
 .background__image {
   background-image: url("../assets/seamless-background.jpeg");
   z-index: -1;
@@ -66,7 +68,7 @@ img {
 .features,
 .sapphire,
 .family,
-.membersFamily,
+.familyMembers,
 .concerts,
 .goToConcerts,
 .getInTouch,

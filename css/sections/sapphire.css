@@ -5,6 +5,7 @@
   height: 100vh;
   background-image: url("../../assets/mobile/sapphire/saxophone.png");
   background-repeat: no-repeat;
+  background-size: 70%;
   background-position: center;
   text-align: center;
 }
@@ -172,4 +173,104 @@
   background-image: url("../../assets/mobile/sapphire/paper-cut-bell.png");
   background-position: top;
   background-repeat: no-repeat;
+}
+
+/* Ipad version */
+@media screen and (min-width: 834px) and (max-width: 1512px) {
+  .sapphire {
+    background-size: 50%;
+  }
+  .sapphire p {
+    font-size: 1.8rem;
+  }
+
+  .sapphire i {
+    font-size: 4rem;
+  }
+
+  .sapphire__mouth {
+    align-items: center;
+    flex-direction: row;
+    grid-area: 2 / 1 / 2 / 6;
+  }
+
+  .sapphire__body {
+    grid-area: 4 / 1/ 4 / 5;
+  }
+  .sapphire__rightHand {
+    text-align: left;
+    align-items: flex-end;
+    grid-area: 5 / 1 / 5 / 5;
+  }
+  .sapphire__leftHand {
+    align-items: flex-end;
+    text-align: left;
+    grid-area: 3 / 6 / 4 / 11;
+  }
+  .sapphire__mouth--info,
+  .sapphire__body--info,
+  .sapphire__leftHand--info,
+  .sapphire__rightHand--info,
+  .sapphire__bell--info {
+    top: 11380px;
+    background-size: cover;
+  }
+}
+
+/* Mackbook pro 14 inch - Verion */
+@media screen and (min-width: 1512px) {
+  .sapphire {
+    background-size: 30%;
+  }
+  .sapphire p {
+    font-size: 2.2rem;
+  }
+  .sapphire i {
+    font-size: 4rem;
+  }
+  .sapphire__mouth {
+    grid-area: 2 / 1 / 2 / 5;
+    justify-content: flex-end;
+    gap: 6vh;
+  }
+  .sapphire__text {
+  gap: 8vh;
+  margin-inline: 10%;
+  }
+  .sapphire__body {
+    grid-area: 4 / 1/ 4 / 5;
+    justify-content: flex-end;
+    gap: 6vh;
+  }
+  .sapphire__rightHand {
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6vh;
+    grid-area: 5 / 1 / 5 / 5;
+  }
+  .sapphire__leftHand {
+    align-items: flex-end;
+    flex-direction: row;
+    text-align: left;
+    grid-area: 3 / 5 / 4 / 11;
+  }
+  .sapphire__mouth--info,
+  .sapphire__body--info,
+  .sapphire__leftHand--info,
+  .sapphire__rightHand--info,
+  .sapphire__bell--info {
+    top: 10950px;
+    margin-inline: 20%;
+    height: 750px;
+    background-size: cover;
+  }
+
+  .sapphire__bell {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    grid-area: 5 / 5 / 5 / 11;
+    gap: 4vh;
+  }
 }
