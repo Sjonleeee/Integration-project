@@ -62,16 +62,16 @@ img {
 
 .intro,
 .sectionTwo,
+.verticalScroll,
 .features,
 .sapphire,
+.family,
 .membersFamily,
-.familyMembers.css,
-.theConcerts.css,
-.goToConcert.css,
-.mim.css
-.verticalScroll.css {
+.concerts,
+.goToConcerts,
+.getInTouch,
+.mim {
   margin-inline: 5vw;
-  padding-top: 3vh;
 }
 
 .cutted__background {
@@ -83,7 +83,6 @@ img {
   height: 95px;
   background-image: url("../assets/background-cutted-up.png");
   background-position-x: right;
-  z-index: 99;
 }
 
 .sapphire__song {
@@ -97,7 +96,7 @@ footer {
   gap: 2rem;
   text-align: center;
   height: 25vh;
-  padding-bottom: 2rem;
+  padding-block: 2rem;
 }
 
 .footer__adres {
@@ -111,6 +110,7 @@ footer {
   gap: 2vh;
   color: black;
   height: 50%;
+  margin-inline: 30vw;
   background-color: var(--color--background-beige);
   border-radius: 2rem;
 }

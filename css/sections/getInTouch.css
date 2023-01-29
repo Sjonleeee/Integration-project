@@ -2,7 +2,7 @@
   height: 55vh;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3,20vh);
+  grid-template-rows: repeat(3, 20vh);
 }
 
 .ticket--1 {
@@ -19,3 +19,27 @@
   grid-row: 3;
 }
 
+/* Mackbook pro 14 inch - Verion */
+@media screen and (min-width: 1512px) {
+  .getInTouch {
+    height: 55vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-self: center;
+    gap: 20px;
+  }
+
+  .ticket--1 {
+    grid-column: 2;
+  }
+
+  .ticket--2 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .ticket--3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
