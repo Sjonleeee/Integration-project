@@ -5,7 +5,7 @@ const adolphe = (gsap) => {
       scrub: true,
       // markers: true,
       start: "top 25%",
-      end: "bottom 0%",
+      end: "center 0%",
     },
   });
 
@@ -47,14 +47,25 @@ const adolphe = (gsap) => {
     "<"
   );
 
-  tl.from(".sectionTwo__secretButton", {
-    opacity: 0,
-    y: -190,
-    duration: 8,
-  });
+  tl.from(
+    ".sectionTwo__secretButton",
+    {
+      opacity: 0,
+      y: -190,
+      duration: 8,
+    },
+    "<"
+  );
 
   tl.from(".sectionTwo__mannekePis", {
+    trigger: ".sectionTwo__adolphe",
+    pin: ".pin",
+    start: "top 0%",
+    end: "top 0% ",
+
+    markers: true,
     opacity: 0,
+    y: -100,
     duration: 8,
   });
 };
