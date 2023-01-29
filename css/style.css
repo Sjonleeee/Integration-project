@@ -74,6 +74,7 @@ img {
 .cutted__background__up {
   height: 95px;
   background-image: url("../assets/background-cutted-up.png");
+  background-position-x: right;
   z-index: 99;
 }
 
