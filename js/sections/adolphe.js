@@ -1,4 +1,4 @@
-const adolphe = (gsap, scrollTrigger) => {
+const adolphe = (gsap) => {
   const mm = gsap.matchMedia();
   mm.add(
     {
@@ -79,6 +79,18 @@ const adolphe = (gsap, scrollTrigger) => {
       });
     }
   );
+
+  const secretBtn = document.querySelector(".sectionTwo__secretButton");
+  const secretBtnClose = document.querySelector(".sectionTwo__secretInfo__close__button");
+  const secretInfo = document.querySelector(".sectionTwo__secretInfo");
+
+  secretBtn.addEventListener("click", () => {
+    secretInfo.style.display = "block";
+  });
+
+  secretBtnClose.addEventListener("click", () => {
+    secretInfo.style.display = "none";
+  });
 };
 
 export default adolphe;

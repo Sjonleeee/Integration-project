@@ -45,6 +45,31 @@
   left: 18vh;
 }
 
+.sectionTwo__secretInfo {
+  position: absolute;
+  color: black;
+  height: calc(120vh / 2);
+  background-image: url("../../assets/mobile/sapphire/papercut.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  z-index: 9000;
+}
+
+.secretInfo__text {
+  display: flex;
+  margin-inline: 3rem;
+  height: 80%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.sectionTwo__secretInfo__close {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1512px) {
   .sectionTwo__mannekePis {
@@ -81,7 +106,7 @@
     text-align: left;
   }
 
-  .sectionTwo__adolphe{
+  .sectionTwo__adolphe {
     z-index: 1;
     grid-column: 1;
     grid-row: 1 / 5;
