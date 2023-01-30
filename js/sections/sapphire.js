@@ -1,4 +1,67 @@
 const sapphire = (gsap) => {
+  const mm = gsap.matchMedia();
+  mm.add(
+    {
+      isMobile: "(max-width: 390px)",
+      isIpad: "(min-width: 834px)",
+      isDesktop: "(min-width: 1512px)",
+    },
+    (context) => {
+      const { isMobile, isIpad, isDesktop } = context.conditions;
+
+      const tl = gsap.timeline({
+        repeatDelay: 1,
+        scrollTrigger: {
+          trigger: ".getToKnowHer",
+          scrub: true,
+          // markers: true,
+          start: "top 20%",
+          end: "bottom -20%",
+        },
+      });
+
+      tl.from(".getToKnowHer", {
+        opacity: 0,
+        y: -300,
+        duration: 8,
+      });
+
+      tl.from(".sapphire__mouth", {
+        opacity: 0,
+        delay: 1,
+        x: -300,
+        duration: 6,
+      });
+
+      tl.from(".sapphire__leftHand", {
+        opacity: 0,
+        delay: 2,
+        x: 300,
+        duration: 7,
+      });
+
+      tl.from(".sapphire__body", {
+        opacity: 0,
+        delay: 3,
+        x: -300,
+        duration: 8,
+      });
+
+      tl.from(".sapphire__rightHand", {
+        opacity: 0,
+        delay: 4,
+        x: -300,
+        duration: 9,
+      });
+      tl.from(".sapphire__bell", {
+        opacity: 0,
+        delay: 5,
+        x: 300,
+        duration: 10,
+      });
+    }
+  );
+
   // Mouth buttons
   const mouthBtn = document.querySelector("#mouth__piece--click");
   const mouthBtnClose = document.querySelector(".mouthCloseIcon");
