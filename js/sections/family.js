@@ -1,13 +1,4 @@
 const family = (gsap) => {
-  const mm = gsap.matchMedia();
-  mm.add(
-    {
-      isMobile: "(max-width: 390px)",
-      isIpad: "(min-width: 834px)",
-      isDesktop: "(min-width: 1512px)",
-    },
-    (context) => {
-      const { isMobile, isIpad, isDesktop } = context.conditions;
       const tl = gsap.timeline({
         repeatDelay: 1,
         scrollTrigger: {
@@ -47,7 +38,5 @@ const family = (gsap) => {
         y: -100,
         delay: 5,
       });
-    }
-  );
-};
+    };
 export default family;
