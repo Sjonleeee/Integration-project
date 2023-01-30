@@ -69,20 +69,30 @@
 }
 
 /* Cards info */
-.sapphire__mouth--info {
-  position: absolute;
-  top: 8150px;
-  z-index: 999;
+.sapphire__mouth--info,
+.sapphire__body--info,
+.sapphire__leftHand--info,
+.sapphire__rightHand--info,
+.sapphire__bell--info {
   display: none;
+  position: absolute;
+  top: calc(50% - 320px);
+  z-index: 999;
   height: 50vh;
-  margin-inline: 5vh;
-  color: black;
-  background-image: url("../../assets/mobile/sapphire/paper-cut-mouthPiece.png");
-  background-position: top;
-  background-repeat: no-repeat;
-  justify-content: space-between;
-  gap: 7vh;
+  background: white;
   flex-direction: column;
+  padding-block-end: 2rem;
+  padding-block-start: 1rem;
+  color: black;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.sapphire__mouth--image {
+  text-align: center;
 }
 
 .sapphire__text {
@@ -120,73 +130,7 @@
   font-size: 1.4rem;
 }
 
-/* Body info */
-.sapphire__body--info {
-  display: none;
-  justify-content: space-between;
-  flex-direction: column;
-  position: absolute;
-  top: 8150px;
-  height: 50vh;
-  margin-inline: 5vh;
-  z-index: 999;
-  gap: 7vh;
-  color: black;
-  background-image: url("../../assets/mobile/sapphire/paper-cut-body.png");
-  background-position: top;
-  background-repeat: no-repeat;
-}
 
-/* Lefthand info */
-.sapphire__leftHand--info {
-  display: none;
-  justify-content: space-between;
-  flex-direction: column;
-  position: absolute;
-  top: 8150px;
-  height: 50vh;
-  margin-inline: 5vh;
-  z-index: 999;
-  gap: 7vh;
-  color: black;
-  background-image: url("../../assets/mobile/sapphire/paper-cut-lefthand.png");
-  background-position: top;
-  background-repeat: no-repeat;
-}
-
-/* Righthand info */
-.sapphire__rightHand--info {
-  display: none;
-  justify-content: space-between;
-  flex-direction: column;
-  position: absolute;
-  top: 8150px;
-  height: 50vh;
-  margin-inline: 5vh;
-  z-index: 999;
-  gap: 7vh;
-  color: black;
-  background-image: url("../../assets/mobile/sapphire/paper-cut-rightHand.png");
-  background-position: top;
-  background-repeat: no-repeat;
-}
-
-/* Bell info */
-.sapphire__bell--info {
-  display: none;
-  justify-content: space-between;
-  flex-direction: column;
-  position: absolute;
-  top: 8150px;
-  height: 50vh;
-  margin-inline: 5vh;
-  z-index: 999;
-  gap: 7vh;
-  color: black;
-  background-image: url("../../assets/mobile/sapphire/paper-cut-bell.png");
-  background-position: top;
-  background-repeat: no-repeat;
-}
 
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1512px) {
@@ -219,14 +163,6 @@
     align-items: flex-end;
     text-align: left;
     grid-area: 3 / 6 / 4 / 11;
-  }
-  .sapphire__mouth--info,
-  .sapphire__body--info,
-  .sapphire__leftHand--info,
-  .sapphire__rightHand--info,
-  .sapphire__bell--info {
-    top: 11880px;
-    background-size: cover;
   }
 }
 
@@ -271,15 +207,14 @@
     text-align: left;
     grid-area: 3 / 5 / 4 / 11;
   }
+
   .sapphire__mouth--info,
   .sapphire__body--info,
   .sapphire__leftHand--info,
   .sapphire__rightHand--info,
   .sapphire__bell--info {
-    top: 10950px;
-    margin-inline: 20%;
-    height: 750px;
-    background-size: cover;
+    top: 10200px;
+    height: 70vh;
   }
 
   .sapphire__bell {

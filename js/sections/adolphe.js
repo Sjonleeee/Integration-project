@@ -92,15 +92,6 @@ const adolphe = (gsap) => {
     }
   );
 
-  // if (isDesktop) {
-  //   gsap.to(".sectionTwo__secretButton", {
-  //     scale: 2,
-  //     duration: 0.5,
-  //     repeat: -1,
-  //     yoyo: true,
-  //   });
-  // }
-
   const secretBtn = document.querySelector(".sectionTwo__secretButton");
   const secretBtnClose = document.querySelector(
     ".sectionTwo__secretInfo__close__button"
