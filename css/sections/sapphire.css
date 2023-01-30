@@ -77,7 +77,7 @@
   height: 50vh;
   margin-inline: 5vh;
   color: black;
-  background-image: url("../../assets/mobile/sapphire/paper-cut-2.png");
+  background-image: url("../../assets/mobile/sapphire/paper-cut-mouthPiece.png");
   background-position: top;
   background-repeat: no-repeat;
   justify-content: space-between;
@@ -149,7 +149,7 @@
   z-index: 999;
   gap: 7vh;
   color: black;
-  background-image: url("../../assets/mobile/sapphire/paper-cut-leftHand.png");
+  background-image: url("../../assets/mobile/sapphire/paper-cut-lefthand.png");
   background-position: top;
   background-repeat: no-repeat;
 }
@@ -232,6 +232,9 @@
 
 /* Mackbook pro 14 inch - Verion */
 @media screen and (min-width: 1512px) {
+  .getToKnowHer p {
+    font-size: 2.3rem;
+  }
   .sapphire {
     background-size: 30%;
   }

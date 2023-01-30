@@ -24,7 +24,6 @@
 .sectionThree img {
   position: relative;
 }
-
 .flowers {
   z-index: 1;
 }
@@ -41,7 +40,23 @@
 
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1512px) {
-.sectionThree__adolpheSax, .sectionThree__sapphire {
-  font-size: 8em;
+  .sectionThree__adolpheSax,
+  .sectionThree__sapphire {
+    font-size: 7em;
+  }
+  .head__adolphe {
+    right: 13rem;
+  }
 }
+
+/* Mackbook pro 14 inch - Verion */
+@media screen and (min-width: 1512px) {
+  .head__adolphe {
+    right: 28rem;
+  }
+
+  .saxophone {
+    z-index: 2;
+    left: 400px;
+  }
 }

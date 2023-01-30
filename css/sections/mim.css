@@ -37,6 +37,24 @@
     color: var(--color-accent-red);
   }
   .mim__img {
-    width: 45%;
+    width: 80%;
+  }
+}
+
+/* Mackbook pro 14 inch - Verion */
+@media screen and (min-width: 1512px) {
+  .mim__img {
+    width: 40%;
+  }
+  .mim {
+    padding-top: 8%;
+  }
+
+  .mim p {
+    margin-inline: 10rem;
+  }
+
+  .agenda__concerts {
+    gap: 6vh;
   }
 }

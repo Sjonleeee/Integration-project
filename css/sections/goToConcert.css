@@ -48,6 +48,10 @@
   }
 }
 
+.concerts__saxophonist {
+  z-index: -2;
+}
+
 /* Mackbook pro 14 inch - Verion */
 @media screen and (min-width: 1512px) {
   .goToConcerts {

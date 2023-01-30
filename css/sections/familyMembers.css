@@ -98,4 +98,9 @@
     gap: 5rem;
     margin-bottom: 4rem;
   }
+  .button__style {
+    min-width: 20px;
+    padding: 1vh 2vh;
+    font-size: 1.8rem;
+  }
 }

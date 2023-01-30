@@ -116,3 +116,14 @@ footer {
   background-color: var(--color--background-beige);
   border-radius: 2rem;
 }
+
+/* Ipad version */
+@media screen and (min-width: 834px) and (max-width: 1512px) {
+  footer {
+    height: 22vh;
+  }
+
+  footer i {
+    width: 100%;
+  }
+}

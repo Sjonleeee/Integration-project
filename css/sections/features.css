@@ -67,7 +67,6 @@
     grid-row: 3;
     width: 900%;
     align-self: center;
-
   }
 
   .features__love__adolphe {
@@ -98,6 +97,7 @@
     color: var(--color-accent-yellow);
     font-size: 2.5rem;
   }
+
   .features__text {
     display: flex;
     width: 90vh;
@@ -106,4 +106,17 @@
     justify-content: center;
     align-items: center;
   }
+}
+.features__love__adolphe {
+  grid-column: 1/ 5;
+  text-align: center;
+}
+.loves {
+  grid-column: 5 / 7;
+  width:20rem;
+}
+
+.features__text {
+  gap: 5rem;
+  width: 75%;
 }
