@@ -1,3 +1,16 @@
+.getToKnowHer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+
+.getToKnowHer p {
+  font-style: italic;
+  color: var(--color-accent-red);
+}
 .sapphire {
   display: grid;
   grid-template-columns: repeat(10, 10%);
@@ -234,8 +247,8 @@
     gap: 6vh;
   }
   .sapphire__text {
-  gap: 8vh;
-  margin-inline: 10%;
+    gap: 8vh;
+    margin-inline: 10%;
   }
   .sapphire__body {
     grid-area: 4 / 1/ 4 / 5;

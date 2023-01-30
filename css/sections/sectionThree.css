@@ -18,13 +18,11 @@
 }
 
 .sectionThree h1 {
-  /* font-size: 3.5rem; */
   font-family: Alachamp;
   color: #c92e2f;
 }
 .sectionThree img {
   position: relative;
-  object-fit: cover;
 }
 
 .flowers {
@@ -44,6 +42,6 @@
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1512px) {
 .sectionThree__adolpheSax, .sectionThree__sapphire {
-  font-size: 6em;
+  font-size: 8em;
 }
 }

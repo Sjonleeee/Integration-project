@@ -43,7 +43,7 @@
   background-image: url("../../assets/mobile/intro/background-behind-adolphe.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; 
+  background-size: contain;
 }
 
 .intro__text,
@@ -94,8 +94,12 @@
   .intro__text--scroll {
     font-size: 1.2em;
   }
+
   p {
     font-size: 28px;
+  }
+  .arrows {
+    width: 8%;
   }
 }
 

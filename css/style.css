@@ -109,10 +109,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2vh;
+  gap: 6vh;
   color: black;
-  height: 50%;
-  margin-inline: 30vw;
+  height: 100%;
+  margin-inline: 7vw;
   background-color: var(--color--background-beige);
   border-radius: 2rem;
 }

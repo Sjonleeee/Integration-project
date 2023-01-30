@@ -17,18 +17,20 @@ import "../css/style.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
+
+
 const click = () => {
   console.log("test");
 };
 
 intro(gsap);
-adolphe(gsap);
+adolphe(gsap, ScrollTrigger);
 sectionThree(gsap);
 features(gsap);
-sapphire();
-family();
-showFamily();
-guessMember();
+sapphire(gsap, ScrollTrigger);
+family(gsap);
+showFamily(gsap);
+guessMember(gsap);
 goToConcert();
 getInTouch();
 verticalScroll(gsap, ScrollTrigger);
