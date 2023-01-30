@@ -1,4 +1,16 @@
 const sectionThree = (gsap) => {
+  const mm = gsap.matchMedia();
+  mm.add(
+    {
+      isMobile: "(max-width: 390px)",
+      isIpad: "(min-width: 834px)",
+      isDesktop: "(min-width: 1512px)",
+    },
+    (context) => {
+      const { isMobile, isIpad, isDesktop } = context.conditions;
+      // Hier moet content
+    }
+  );
   const tl = gsap.timeline({
     scrollTrigger: {
       trigger: ".cutted__background",
@@ -23,16 +35,16 @@ const sectionThree = (gsap) => {
 
   tl.from(".flowers", {
     opacity: 0,
-    duration: 10
+    duration: 10,
   });
 
   tl.to(".head__adolphe", {
-    x: 380,
+    x: 300,
     duration: 5,
   });
 
   tl.to(".saxophone", {
-    x: -380,
+    x: -300,
     duration: 5,
   });
 
