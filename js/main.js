@@ -29,11 +29,10 @@ concerts(gsap);
 goToConcert(gsap);
 getInTouch(gsap);
 
-window.onload = function () {
-  document.querySelector(".preloader").classList.add("visually-hidden");
-  document.querySelector(".wrapper").classList.remove("visually-hidden");
-};
-
+// window.onload = function () {
+//   document.querySelector(".preloader").classList.add("visually-hidden");
+//   document.querySelector(".wrapper").classList.remove("visually-hidden");
+// };
 
 // let song = new Audio("./song/titanic.mp3");
 // const titanic = (event) => {

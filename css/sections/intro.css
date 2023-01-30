@@ -6,9 +6,23 @@
   gap: 0.8rem;
 }
 
+.intro__header {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro__language {
+  display: flex;
+  align-items: flex-end;
+  gap: 3vh;
+}
+
 .intro__logoMim {
   place-items: left;
   grid-column: 1;
+  /* width: 100px; */
 }
 
 .intro__body {
