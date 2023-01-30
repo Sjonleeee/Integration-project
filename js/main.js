@@ -8,8 +8,7 @@ import verticalScroll from "./sections/verticalScroll.js";
 import features from "./sections/features.js";
 import sapphire from "./sections/sapphire.js";
 import family from "./sections/family.js";
-import showFamily from "./sections/showFamily.js";
-import guessMember from "./sections/guessMember.js";
+import familyMembers from "./sections/familyMembers.js";
 import goToConcert from "./sections/goToConcert.js";
 import getInTouch from "./sections/getInTouch.js";
 
@@ -29,9 +28,8 @@ sectionThree(gsap);
 features(gsap);
 sapphire(gsap, ScrollTrigger);
 family(gsap);
-showFamily(gsap);
-guessMember(gsap);
-goToConcert();
+familyMembers(gsap);
+goToConcert(gsap);
 getInTouch();
 verticalScroll(gsap, ScrollTrigger);
 

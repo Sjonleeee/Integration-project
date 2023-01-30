@@ -13,7 +13,7 @@ const family = (gsap) => {
         scrollTrigger: {
           trigger: ".family__p",
           scrub: true,
-          markers: true,
+        //   markers: true,
           start: "top 20%",
           end: "bottom -20%",
         },
@@ -45,7 +45,7 @@ const family = (gsap) => {
         scrollTrigger: {
           trigger: ".family__title__decide",
           scrub: true,
-          markers: true,
+        //   markers: true,
           start: "top 20%",
           end: "bottom -20%",
         },
