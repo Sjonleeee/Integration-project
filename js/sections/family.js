@@ -19,12 +19,6 @@ const family = (gsap) => {
         },
       });
 
-      tl.from(".family__p--1", {
-        opacity: 0,
-        y: -300,
-        duration: 8,
-      });
-
       tl.from(".family__title__soThey", {
         opacity: 0,
         y: -100,
