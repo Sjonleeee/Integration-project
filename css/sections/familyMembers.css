@@ -46,10 +46,6 @@
   gap: 30px;
 }
 
-.button__style:hover {
-  background-color: #fff;
-}
-
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1512px) {
   .familyMembers {

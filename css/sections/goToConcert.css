@@ -5,6 +5,10 @@
   align-content: center;
   place-items: center;
   grid-template-rows: 10vh 40vh 20vh 10vh;
+  background-image: url("../../assets/mobile/famousPlayers.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .goToConcerts__adolpheAndSapphire {
