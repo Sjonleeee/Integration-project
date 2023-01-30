@@ -23,7 +23,7 @@ const adolphe = (gsap) => {
         scrollTrigger: {
           trigger: ".sectionTwo__adolphe",
           scrub: true,
-          markers: true,
+          // markers: true,
           start: "top 40%",
           end: "top -40%",
         },
@@ -84,8 +84,7 @@ const adolphe = (gsap) => {
         pin: ".pin",
         start: "top 0%",
         end: "top 0% ",
-
-        markers: true,
+        // markers: true,
         opacity: 0,
         y: -100,
         duration: 8,

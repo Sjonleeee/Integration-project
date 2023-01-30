@@ -44,16 +44,14 @@
   .sectionThree__sapphire {
     font-size: 7em;
   }
+  .saxophone {
+    right: 9vh;
+  }
 }
 
 /* Mackbook pro 14 inch - Verion */
 @media screen and (min-width: 1512px) {
-  .head__adolphe {
-    right: 28rem;
-  }
-
-  .saxophone {
-    z-index: 2;
-    left: 400px;
+ .saxophone {
+    right: 12vh;
   }
 }
