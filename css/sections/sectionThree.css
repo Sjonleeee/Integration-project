@@ -30,12 +30,12 @@
 
 .head__adolphe {
   z-index: 2;
-  right: 200px;
+  left: 9vh;
 }
 
 .saxophone {
   z-index: 2;
-  left: 200px;
+  right: 9vh;
 }
 
 /* Ipad version */
@@ -43,9 +43,6 @@
   .sectionThree__adolpheSax,
   .sectionThree__sapphire {
     font-size: 7em;
-  }
-  .head__adolphe {
-    right: 13rem;
   }
 }
 

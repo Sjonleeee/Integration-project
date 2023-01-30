@@ -17,7 +17,6 @@ import "../css/style.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
-
 intro(gsap);
 adolphe(gsap);
 sectionThree(gsap);
@@ -26,9 +25,15 @@ features(gsap);
 sapphire(gsap);
 family(gsap);
 familyMembers(gsap);
-concerts(gsap)
+concerts(gsap);
 goToConcert(gsap);
 getInTouch(gsap);
+
+window.onload = function () {
+  document.querySelector(".preloader").classList.add("visually-hidden");
+  document.querySelector(".wrapper").classList.remove("visually-hidden");
+};
+
 
 // let song = new Audio("./song/titanic.mp3");
 // const titanic = (event) => {

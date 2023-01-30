@@ -3,6 +3,7 @@ const sectionThree = (gsap) => {
   mm.add(
     {
       isMobile: "(max-width: 390px)",
+      isIpad: "(max-width: 890px)",
       isDesktop: "(min-width: 1512px)",
     },
     (context) => {
@@ -34,19 +35,19 @@ const sectionThree = (gsap) => {
         duration: 10,
       });
 
-      tl.to(".head__adolphe", {
-        x: isMobile ? 300 : 400,
+      tl.from(".head__adolphe", {
+        x: -180,
         x: isDesktop ? 850 : 1000,
 
         duration: 5,
       });
 
-      tl.to(".saxophone", {
-        x: isMobile ? -300 : -400,
-        x: isDesktop ? -750 : -800,
+      // tl.to(".saxophone", {
+      //   x: isMobile ? -300 : -400,
+      //   x: isDesktop ? -750 : -800,
 
-        duration: 5,
-      });
+      //   duration: 5,
+      // });
 
       tl.from(".sectionThree__sapphire", {
         x: isMobile ? 400 : 800,

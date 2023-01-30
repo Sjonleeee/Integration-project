@@ -7,7 +7,7 @@ const adolphe = (gsap, scrollTrigger) => {
       isDesktop: "(min-width: 1512px)",
     },
     (context) => {
-      const { isMobile, isIpad, isDesktop } = context.conditions;
+      const { isMobile, isDesktop } = context.conditions;
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: ".sectionTwo__adolphe",

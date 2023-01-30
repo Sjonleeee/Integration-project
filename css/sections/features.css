@@ -29,6 +29,9 @@
   font-weight: 100;
   color: var(--color-accent-yellow);
 }
+.loves {
+  width:10rem;
+}
 
 /* Ipad version */
 @media screen and (min-width: 834px) and (max-width: 1512px) {
@@ -106,17 +109,17 @@
     justify-content: center;
     align-items: center;
   }
-}
-.features__love__adolphe {
-  grid-column: 1/ 5;
-  text-align: center;
-}
-.loves {
-  grid-column: 5 / 7;
-  width:20rem;
-}
-
-.features__text {
-  gap: 5rem;
-  width: 75%;
+  .features__love__adolphe {
+    grid-column: 1/ 5;
+    text-align: center;
+  }
+  .loves {
+    grid-column: 5 / 7;
+    width:20rem;
+  }
+  
+  .features__text {
+    gap: 5rem;
+    width: 75%;
+  }
 }
